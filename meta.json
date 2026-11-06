@@ -6,7 +6,9 @@
     "project": "openvswitch",
     "test_repo": "github.com/fuzzfactor/ovs-test"
   },
-  "events": {},
+  "events": {
+    "series-completed": 5403922
+  },
   "archives": {
     "dev": {
       "last_month": "2026-11",
