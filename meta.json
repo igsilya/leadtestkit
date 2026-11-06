@@ -6,6 +6,7 @@
     "project": "openvswitch",
     "test_repo": "github.com/fuzzfactor/ovs-test"
   },
+  "tools_synced": "2026-11-06T23:52:42Z",
   "events": {
     "series-completed": 5403922
   },
