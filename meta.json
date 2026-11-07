@@ -1,5 +1,5 @@
 {
-  "schema": 2,
+  "schema": 4,
   "discovery_start": "2026-11-07T00:07:40Z",
   "instance": {
     "patchwork": "https://patchwork.ozlabs.org",

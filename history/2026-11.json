@@ -1,5 +1,5 @@
 {
-  "schema": 2,
+  "schema": 4,
   "series": [
     {
       "id": 532383,
@@ -22,7 +22,7 @@
           "number": 1,
           "name": "[ovs-dev,net,v2] net: openvswitch: make transport checksums writable",
           "msgid": "<20261107040238.27606-1-kylebot@openai.com>",
-          "status": "pending"
+          "status": "skipped"
         }
       ]
     },
@@ -48,14 +48,14 @@
           "number": 1,
           "name": "[ovs-dev,net,v1,1/2] net: openvswitch: do not record user features when the change fails",
           "msgid": "<20261107113403.797779-2-houminxi@gmail.com>",
-          "status": "pending"
+          "status": "skipped"
         },
         {
           "id": 2339958,
           "number": 2,
           "name": "[ovs-dev,net,v1,2/2] selftests/net/openvswitch: check that a failed set keeps the features",
           "msgid": "<20261107113403.797779-3-houminxi@gmail.com>",
-          "status": "pending"
+          "status": "skipped"
         }
       ]
     },
@@ -81,14 +81,14 @@
           "number": 1,
           "name": "[ovs-dev,net-next,v6,1/2] netlink: specs: add ovs_flow del and set operations",
           "msgid": "<20261107120647.874906-2-houminxi@gmail.com>",
-          "status": "pending"
+          "status": "skipped"
         },
         {
           "id": 2339999,
           "number": 2,
           "name": "[ovs-dev,net-next,v6,2/2] netlink: specs: add ovs datapath and vport set operations",
           "msgid": "<20261107120647.874906-3-houminxi@gmail.com>",
-          "status": "pending"
+          "status": "skipped"
         }
       ]
     }
