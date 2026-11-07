@@ -1,0 +1,30 @@
+{
+  "schema": 2,
+  "series": [
+    {
+      "id": 532383,
+      "name": "[ovs-dev,net,v2] net: openvswitch: make transport checksums writable",
+      "version": 2,
+      "date": "2026-11-07T04:02:38+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=532383",
+      "submitter": {
+        "name": "Kyle Zeng",
+        "email": "kylebot@openai.com"
+      },
+      "total": 1,
+      "status": "skipped",
+      "reason": "kernel patch",
+      "discovered": "2026-11-07T04:05:01Z",
+      "finished": "2026-11-07T04:05:01Z",
+      "patches": [
+        {
+          "id": 2339830,
+          "number": 1,
+          "name": "[ovs-dev,net,v2] net: openvswitch: make transport checksums writable",
+          "msgid": "<20261107040238.27606-1-kylebot@openai.com>",
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}
