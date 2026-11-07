@@ -1,5 +1,5 @@
 {
-  "schema": 4,
+  "schema": 5,
   "series": [
     {
       "id": 532383,
@@ -110,7 +110,6 @@
         "sha": "abb88a628d3d21458fc8567eb94f6cba9f2cf82b",
         "why": "default"
       },
-      "branch": "series_532449",
       "discovered": "2026-11-07T19:43:59Z",
       "started": "2026-11-07T19:44:05Z",
       "finished": "2026-11-07T19:44:15Z",
@@ -204,7 +203,6 @@
         "sha": "abb88a628d3d21458fc8567eb94f6cba9f2cf82b",
         "why": "default"
       },
-      "branch": "series_532450",
       "discovered": "2026-11-07T19:47:28Z",
       "started": "2026-11-07T19:47:34Z",
       "finished": "2026-11-07T19:47:43Z",
