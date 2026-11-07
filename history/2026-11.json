@@ -58,6 +58,39 @@
           "status": "pending"
         }
       ]
+    },
+    {
+      "id": 532415,
+      "name": "netlink: specs: fill in the missing ovs operations",
+      "version": 6,
+      "date": "2026-11-07T12:06:45+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=532415",
+      "submitter": {
+        "name": "Minxi Hou",
+        "email": "houminxi@gmail.com"
+      },
+      "total": 2,
+      "cover_id": 2339997,
+      "status": "skipped",
+      "reason": "kernel patch",
+      "discovered": "2026-11-07T12:07:43Z",
+      "finished": "2026-11-07T12:07:49Z",
+      "patches": [
+        {
+          "id": 2339998,
+          "number": 1,
+          "name": "[ovs-dev,net-next,v6,1/2] netlink: specs: add ovs_flow del and set operations",
+          "msgid": "<20261107120647.874906-2-houminxi@gmail.com>",
+          "status": "pending"
+        },
+        {
+          "id": 2339999,
+          "number": 2,
+          "name": "[ovs-dev,net-next,v6,2/2] netlink: specs: add ovs datapath and vport set operations",
+          "msgid": "<20261107120647.874906-3-houminxi@gmail.com>",
+          "status": "pending"
+        }
+      ]
     }
   ]
 }
