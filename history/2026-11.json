@@ -25,6 +25,39 @@
           "status": "pending"
         }
       ]
+    },
+    {
+      "id": 532413,
+      "name": "net: openvswitch: fix a feature leak on a failed change",
+      "version": 1,
+      "date": "2026-11-07T11:34:01+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=532413",
+      "submitter": {
+        "name": "Minxi Hou",
+        "email": "houminxi@gmail.com"
+      },
+      "total": 2,
+      "cover_id": 2339956,
+      "status": "skipped",
+      "reason": "kernel patch",
+      "discovered": "2026-11-07T11:35:01Z",
+      "finished": "2026-11-07T11:35:01Z",
+      "patches": [
+        {
+          "id": 2339957,
+          "number": 1,
+          "name": "[ovs-dev,net,v1,1/2] net: openvswitch: do not record user features when the change fails",
+          "msgid": "<20261107113403.797779-2-houminxi@gmail.com>",
+          "status": "pending"
+        },
+        {
+          "id": 2339958,
+          "number": 2,
+          "name": "[ovs-dev,net,v1,2/2] selftests/net/openvswitch: check that a failed set keeps the features",
+          "msgid": "<20261107113403.797779-3-houminxi@gmail.com>",
+          "status": "pending"
+        }
+      ]
     }
   ]
 }
