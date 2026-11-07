@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "discovery_start": "2026-11-07T00:07:40Z",
+  "instance": {
+    "patchwork": "https://patchwork.ozlabs.org",
+    "project": "openvswitch",
+    "test_repo": "github.com/fuzzfactor/ovs-test"
+  },
+  "tools_synced": "2026-11-07T00:07:40Z",
+  "events": {
+    "series-completed": 5403922
+  },
+  "archives": {
+    "dev": {
+      "last_month": "2026-11",
+      "months": {
+        "2026-November": 437709,
+        "2026-October": 437547
+      }
+    }
+  },
+  "stats": {}
+}
