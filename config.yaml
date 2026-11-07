@@ -71,7 +71,10 @@ limits:
   initial_backfill: 3d
 
 workflows:
-  custom: false
+  expected:
+    - Build and Test
+    - FreeBSD Build and Test
+  custom: true
 
 rechecks:
   enabled: true
