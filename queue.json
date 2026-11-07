@@ -1,4 +1,92 @@
 {
   "schema": 4,
-  "series": []
+  "series": [
+    {
+      "id": 532449,
+      "name": "[ovs-dev,v2] conntrack: Log one line per connection at purge.",
+      "version": 2,
+      "date": "2026-11-07T19:40:28+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=532449",
+      "submitter": {
+        "name": "Thilak Raj Surendra Babu",
+        "email": "s.thilakraj@gmail.com"
+      },
+      "total": 1,
+      "status": "testing",
+      "base": {
+        "git_url": "https://github.com/openvswitch/ovs.git",
+        "branch": "main",
+        "sha": "abb88a628d3d21458fc8567eb94f6cba9f2cf82b",
+        "why": "default"
+      },
+      "branch": "series_532449",
+      "discovered": "2026-11-07T19:43:59Z",
+      "started": "2026-11-07T19:44:05Z",
+      "patches": [
+        {
+          "id": 2340196,
+          "number": 1,
+          "name": "[ovs-dev,v2] conntrack: Log one line per connection at purge.",
+          "msgid": "<20261107194028.1845985-1-s.thilakraj@gmail.com>",
+          "status": "apply-failed",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "fail",
+              "details": "Failed to apply on top of main (abb88a628d3d):\n\nPatch failed at 0001 conntrack: Log one line per connection at purge.\n\nerror: sha1 information is lacking or useless (NEWS).\nerror: could not build fake ancestor\nhint: Use 'git am --show-current-patch=diff' to see the failed patch\nhint: When you have resolved this problem, run \"git am --continue\".\nhint: If you prefer to skip this patch, run \"git am --skip\" instead.\nhint: To restore the original branch and stop patching, run \"git am --abort\".\nhint: Disable this message with \"git config set advice.mergeConflict false\"",
+              "updated": "2026-11-07T19:44:14Z",
+              "completed": "2026-11-07T19:44:14Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.532449.2340196.apply-robot.final.1794080645.1@af-unspec.org>"
+              }
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-07T19:44:05Z",
+              "action": "discovered",
+              "detail": "Found in series 532449.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42407112973/attempts/1"
+            },
+            {
+              "time": "2026-11-07T19:44:14Z",
+              "action": "apply-failed",
+              "detail": "Failed to apply on top of main (abb88a628d3d):\n\nPatch failed at 0001 conntrack: Log one line per connection at purge.\n\nerror: sha1 information is lacking or useless (NEWS).\nerror: could not build fake ancestor\nhint: Use 'git am --show-current-patch=diff' to see the failed patch\nhint: When you have resolved this problem, run \"git am --continue\".\nhint: If you prefer to skip this patch, run \"git am --skip\" instead.\nhint: To restore the original branch and stop patching, run \"git am --abort\".\nhint: Disable this message with \"git config set advice.mergeConflict false\"",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42407112973/attempts/1"
+            },
+            {
+              "time": "2026-11-07T19:44:14Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (fail). Message-ID: <leadtest.532449.2340196.apply-robot.final.1794080645.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42407112973/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-07T19:43:59Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42407112973/attempts/1"
+        },
+        {
+          "time": "2026-11-07T19:44:05Z",
+          "action": "queued",
+          "detail": "Eligible for testing; 1 patches.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42407112973/attempts/1"
+        },
+        {
+          "time": "2026-11-07T19:44:12Z",
+          "action": "base-selected",
+          "detail": "main at abb88a628d3d21458fc8567eb94f6cba9f2cf82b: default.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42407112973/attempts/1"
+        }
+      ]
+    }
+  ]
 }
