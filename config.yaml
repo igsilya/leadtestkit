@@ -46,6 +46,10 @@ mode:
   allowed_recipients:
     - i.maximets@af-unspec.org
 
+alert:
+  to:
+    - i.maximets@af-unspec.org
+
 rules:
   skip:
     - subject: '^\[[^\]]*\bRFC\b[^\]]*\]'
