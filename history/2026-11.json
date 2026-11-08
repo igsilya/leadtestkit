@@ -533,6 +533,81 @@
           "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42440334429/attempts/1"
         }
       ]
+    },
+    {
+      "id": 532509,
+      "name": "net: openvswitch: fix a feature leak on a failed change",
+      "version": 2,
+      "date": "2026-11-08T12:34:22+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=532509",
+      "submitter": {
+        "name": "Minxi Hou",
+        "email": "houminxi@gmail.com"
+      },
+      "total": 2,
+      "cover_id": 2340448,
+      "status": "skipped",
+      "reason": "kernel patch",
+      "discovered": "2026-11-08T12:37:45Z",
+      "finished": "2026-11-08T12:37:52Z",
+      "patches": [
+        {
+          "id": 2340449,
+          "number": 1,
+          "name": "[ovs-dev,net,v2,1/2] net: openvswitch: do not record user features when the change fails",
+          "msgid": "<20261108123424.2825403-2-houminxi@gmail.com>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-08T12:37:58Z",
+              "action": "discovered",
+              "detail": "Found in series 532509.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42481119731/attempts/1"
+            },
+            {
+              "time": "2026-11-08T12:37:58Z",
+              "action": "skipped",
+              "detail": "Series skipped: kernel patch",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42481119731/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2340450,
+          "number": 2,
+          "name": "[ovs-dev,net,v2,2/2] selftests/net/openvswitch: check that a failed set keeps the features",
+          "msgid": "<20261108123424.2825403-3-houminxi@gmail.com>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-08T12:37:58Z",
+              "action": "discovered",
+              "detail": "Found in series 532509.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42481119731/attempts/1"
+            },
+            {
+              "time": "2026-11-08T12:37:58Z",
+              "action": "skipped",
+              "detail": "Series skipped: kernel patch",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42481119731/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-08T12:37:45Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42481119731/attempts/1"
+        },
+        {
+          "time": "2026-11-08T12:37:58Z",
+          "action": "skipped",
+          "detail": "kernel patch",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42481119731/attempts/1"
+        }
+      ]
     }
   ]
 }
