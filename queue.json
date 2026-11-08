@@ -28,7 +28,7 @@
           "number": 1,
           "name": "[ovs-dev,v2] conntrack: Add connection create/destroy counters.",
           "msgid": "<20261108022324.1999440-1-s.thilakraj@gmail.com>",
-          "status": "pushed",
+          "status": "done",
           "sha": "54dfdf3cef26f79b190868fad468e863b3fcfae1",
           "pushed": "2026-11-08T02:24:44Z",
           "runs": [
@@ -218,6 +218,12 @@
               "time": "2026-11-08T02:56:56Z",
               "action": "report-sent",
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.532474.2340299.github-robot-build-and-test.final.1794104677.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42440334429/attempts/1"
+            },
+            {
+              "time": "2026-11-08T03:00:45Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42440334429/attempts/1"
             }
           ]
