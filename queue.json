@@ -1,5 +1,5 @@
 {
-  "schema": 5,
+  "schema": 6,
   "series": [
     {
       "id": 532542,
@@ -140,19 +140,22 @@
               "time": "2026-11-08T20:42:12Z",
               "action": "workflow-updated",
               "detail": "Build and Test run 42521205267, attempt 1: queued.",
-              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42521205267/attempts/1"
             },
             {
               "time": "2026-11-08T20:42:12Z",
               "action": "workflow-updated",
               "detail": "FreeBSD Build and Test run 42521205402, attempt 1: in_progress.",
-              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42521205402/attempts/1"
             },
             {
               "time": "2026-11-08T20:42:12Z",
               "action": "workflow-updated",
               "detail": "Checkpatch run 42521204865, attempt 1: completed: success.",
-              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42521204865/attempts/1"
             },
             {
               "time": "2026-11-08T20:42:13Z",
@@ -188,7 +191,8 @@
               "time": "2026-11-08T20:46:13Z",
               "action": "workflow-updated",
               "detail": "FreeBSD Build and Test run 42521205402, attempt 1: completed: success.",
-              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42521066394/attempts/1"
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42521066394/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42521205402/attempts/1"
             },
             {
               "time": "2026-11-08T20:46:17Z",
@@ -200,7 +204,8 @@
               "time": "2026-11-08T20:49:21Z",
               "action": "workflow-updated",
               "detail": "Build and Test run 42521205267, attempt 1: in_progress.",
-              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42521066394/attempts/1"
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42521066394/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42521205267/attempts/1"
             }
           ]
         }
