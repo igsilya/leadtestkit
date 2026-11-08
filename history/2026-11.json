@@ -326,7 +326,7 @@
             },
             {
               "kind": "dispatch",
-              "workflow": "leadtest 532474-2340299-leadtest-checkpatch-1",
+              "workflow": "Checkpatch",
               "file": "leadtest-checkpatch.yml",
               "correlation_id": "532474-2340299-leadtest-checkpatch-1",
               "id": 42438427667,
@@ -435,13 +435,13 @@
             {
               "time": "2026-11-08T02:28:16Z",
               "action": "workflow-updated",
-              "detail": "leadtest 532474-2340299-leadtest-checkpatch-1 run 42438427667, attempt 1: completed: success.",
+              "detail": "Checkpatch run 42438427667, attempt 1: completed: success.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42437158646/attempts/1"
             },
             {
               "time": "2026-11-08T02:28:17Z",
               "action": "report-sent",
-              "detail": "Sent final email for github-robot: leadtest 532474-2340299-leadtest-checkpatch-1 (success). Message-ID: <leadtest.532474.2340299.github-robot-leadtest-532474-2340299-leadtest-checkpatch-1.final.1794104677.1@af-unspec.org>.",
+              "detail": "Sent final email for github-robot: Checkpatch (success). Message-ID: <leadtest.532474.2340299.github-robot-leadtest-532474-2340299-leadtest-checkpatch-1.final.1794104677.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42437158646/attempts/1"
             },
             {
@@ -657,7 +657,7 @@
             },
             {
               "kind": "dispatch",
-              "workflow": "leadtest 532531-2340507-leadtest-checkpatch-1",
+              "workflow": "Checkpatch",
               "file": "leadtest-checkpatch.yml",
               "correlation_id": "532531-2340507-leadtest-checkpatch-1",
               "id": 42508710276,
@@ -767,19 +767,19 @@
             {
               "time": "2026-11-08T18:14:24Z",
               "action": "workflow-updated",
-              "detail": "leadtest 532531-2340507-leadtest-checkpatch-1 run 42508710276, attempt 1: completed: success.",
+              "detail": "Checkpatch run 42508710276, attempt 1: completed: success.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
             },
             {
               "time": "2026-11-08T18:14:25Z",
               "action": "workflow-warnings",
-              "detail": "leadtest 532531-2340507-leadtest-checkpatch-1 run 42508710276 passed with 1 \"leadtest\" warnings.",
+              "detail": "Checkpatch run 42508710276 passed with 1 \"leadtest\" warnings.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
             },
             {
               "time": "2026-11-08T18:14:28Z",
               "action": "report-sent",
-              "detail": "Sent final email for github-robot: leadtest 532531-2340507-leadtest-checkpatch-1 (warning). Message-ID: <leadtest.532531.2340507.github-robot-leadtest-532531-2340507-leadtest-checkpatch-1.final.1794161468.1@af-unspec.org>.",
+              "detail": "Sent final email for github-robot: Checkpatch (warning). Message-ID: <leadtest.532531.2340507.github-robot-leadtest-532531-2340507-leadtest-checkpatch-1.final.1794161468.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
             },
             {
