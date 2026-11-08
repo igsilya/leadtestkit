@@ -46,7 +46,7 @@ mode:
   allowed_recipients:
     - i.maximets@af-unspec.org
 
-alert:
+alerts:
   to:
     - i.maximets@af-unspec.org
 
