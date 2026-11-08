@@ -1,4 +1,116 @@
 {
   "schema": 5,
-  "series": []
+  "series": [
+    {
+      "id": 532531,
+      "name": "[ovs-dev,v3] conntrack: Log one line per connection at purge.",
+      "version": 3,
+      "date": "2026-11-08T18:08:57+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=532531",
+      "submitter": {
+        "name": "Thilak Raj Surendra Babu",
+        "email": "s.thilakraj@gmail.com"
+      },
+      "total": 1,
+      "status": "testing",
+      "base": {
+        "git_url": "https://github.com/openvswitch/ovs.git",
+        "branch": "main",
+        "sha": "abb88a628d3d21458fc8567eb94f6cba9f2cf82b",
+        "why": "default"
+      },
+      "branch": "series_532531",
+      "discovered": "2026-11-08T18:11:02Z",
+      "started": "2026-11-08T18:11:08Z",
+      "patches": [
+        {
+          "id": 2340507,
+          "number": 1,
+          "name": "[ovs-dev,v3] conntrack: Log one line per connection at purge.",
+          "msgid": "<20261108180857.2672982-1-s.thilakraj@gmail.com>",
+          "status": "pushed",
+          "sha": "ca68e8ee62962040a33f5f4d592f1534f150367b",
+          "pushed": "2026-11-08T18:11:15Z",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (abb88a628d3d).",
+              "updated": "2026-11-08T18:11:15Z",
+              "completed": "2026-11-08T18:11:15Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.532531.2340507.apply-robot.final.1794161468.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "dispatch",
+              "workflow": "leadtest-checkpatch.yml",
+              "file": "leadtest-checkpatch.yml",
+              "correlation_id": "532531-2340507-leadtest-checkpatch-1",
+              "status": "requested",
+              "updated": "2026-11-08T18:11:19Z",
+              "pending": {},
+              "final": {}
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-08T18:11:07Z",
+              "action": "discovered",
+              "detail": "Found in series 532531.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
+            },
+            {
+              "time": "2026-11-08T18:11:15Z",
+              "action": "applied",
+              "detail": "Commit ca68e8ee62962040a33f5f4d592f1534f150367b on base main (abb88a628d3d21458fc8567eb94f6cba9f2cf82b).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
+            },
+            {
+              "time": "2026-11-08T18:11:16Z",
+              "action": "pushed",
+              "detail": "Updated branch series_532531 to ca68e8ee62962040a33f5f4d592f1534f150367b.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
+            },
+            {
+              "time": "2026-11-08T18:11:19Z",
+              "action": "dispatched",
+              "detail": "leadtest-checkpatch.yml from main for commit ca68e8ee62962040a33f5f4d592f1534f150367b (request 532531-2340507-leadtest-checkpatch-1).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
+            },
+            {
+              "time": "2026-11-08T18:11:20Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.532531.2340507.apply-robot.final.1794161468.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-08T18:11:02Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
+        },
+        {
+          "time": "2026-11-08T18:11:07Z",
+          "action": "queued",
+          "detail": "Eligible for testing; 1 patches.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
+        },
+        {
+          "time": "2026-11-08T18:11:14Z",
+          "action": "base-selected",
+          "detail": "main at abb88a628d3d21458fc8567eb94f6cba9f2cf82b: default.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42508372607/attempts/1"
+        }
+      ]
+    }
+  ]
 }
