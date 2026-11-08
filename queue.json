@@ -48,12 +48,54 @@
             },
             {
               "kind": "dispatch",
-              "workflow": "leadtest-checkpatch.yml",
+              "workflow": "leadtest 532542-2340529-leadtest-checkpatch-1",
               "file": "leadtest-checkpatch.yml",
               "correlation_id": "532542-2340529-leadtest-checkpatch-1",
-              "status": "requested",
-              "updated": "2026-11-08T20:39:06Z",
-              "pending": {},
+              "id": 42521204865,
+              "attempt": 1,
+              "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42521204865",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "success",
+              "updated": "2026-11-08T20:42:12Z",
+              "completed": "2026-11-08T20:42:12Z",
+              "pending": {
+                "check": "skipped",
+                "email": "skipped"
+              },
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.532542.2340529.github-robot-leadtest-532542-2340529-leadtest-checkpatch-1.final.1794170336.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "push",
+              "workflow": "Build and Test",
+              "id": 42521205267,
+              "attempt": 1,
+              "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42521205267",
+              "status": "queued",
+              "updated": "2026-11-08T20:42:12Z",
+              "pending": {
+                "check": "logged",
+                "email": "sent",
+                "message_id": "<leadtest.532542.2340529.github-robot-build-and-test.pending.1794170336.1@af-unspec.org>"
+              },
+              "final": {}
+            },
+            {
+              "kind": "push",
+              "workflow": "FreeBSD Build and Test",
+              "id": 42521205402,
+              "attempt": 1,
+              "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42521205402",
+              "status": "in_progress",
+              "updated": "2026-11-08T20:42:12Z",
+              "pending": {
+                "check": "logged",
+                "email": "sent",
+                "message_id": "<leadtest.532542.2340529.github-robot-freebsd-build-and-test.pending.1794170336.1@af-unspec.org>"
+              },
               "final": {}
             }
           ],
@@ -86,6 +128,54 @@
               "time": "2026-11-08T20:39:07Z",
               "action": "report-sent",
               "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.532542.2340529.apply-robot.final.1794170336.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+            },
+            {
+              "time": "2026-11-08T20:42:12Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 42521205267, attempt 1: queued.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+            },
+            {
+              "time": "2026-11-08T20:42:12Z",
+              "action": "workflow-updated",
+              "detail": "FreeBSD Build and Test run 42521205402, attempt 1: in_progress.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+            },
+            {
+              "time": "2026-11-08T20:42:12Z",
+              "action": "workflow-updated",
+              "detail": "leadtest 532542-2340529-leadtest-checkpatch-1 run 42521204865, attempt 1: completed: success.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+            },
+            {
+              "time": "2026-11-08T20:42:13Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: leadtest 532542-2340529-leadtest-checkpatch-1 (success). Message-ID: <leadtest.532542.2340529.github-robot-leadtest-532542-2340529-leadtest-checkpatch-1.final.1794170336.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+            },
+            {
+              "time": "2026-11-08T20:42:13Z",
+              "action": "check-logged",
+              "detail": "Would post pending check github-robot-_Build_and_Test linking to https://github.com/fuzzfactor/ovs-test/tree/series_532542",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+            },
+            {
+              "time": "2026-11-08T20:42:15Z",
+              "action": "report-sent",
+              "detail": "Sent pending email for github-robot: Build and Test (pending). Message-ID: <leadtest.532542.2340529.github-robot-build-and-test.pending.1794170336.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+            },
+            {
+              "time": "2026-11-08T20:42:15Z",
+              "action": "check-logged",
+              "detail": "Would post pending check github-robot-_FreeBSD_Build_and_Test linking to https://github.com/fuzzfactor/ovs-test/tree/series_532542",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
+            },
+            {
+              "time": "2026-11-08T20:42:15Z",
+              "action": "report-sent",
+              "detail": "Sent pending email for github-robot: FreeBSD Build and Test (pending). Message-ID: <leadtest.532542.2340529.github-robot-freebsd-build-and-test.pending.1794170336.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
             }
           ]
