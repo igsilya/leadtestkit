@@ -28,7 +28,7 @@
           "number": 1,
           "name": "[ovs-dev,v4] conntrack: Log one line per connection at purge.",
           "msgid": "<20261108203639.3241548-1-s.thilakraj@gmail.com>",
-          "status": "pushed",
+          "status": "done",
           "sha": "372810b92ae679b4903ac2a9d7164522e83b25c8",
           "pushed": "2026-11-08T20:39:04Z",
           "runs": [
@@ -249,6 +249,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.532542.2340529.github-robot-build-and-test.final.1794170336.2@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42526126526/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42521205267/attempts/2"
+            },
+            {
+              "time": "2026-11-08T21:44:08Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42526126526/attempts/1"
             }
           ]
         }
