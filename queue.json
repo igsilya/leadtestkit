@@ -48,7 +48,7 @@
             },
             {
               "kind": "dispatch",
-              "workflow": "leadtest 532542-2340529-leadtest-checkpatch-1",
+              "workflow": "Checkpatch",
               "file": "leadtest-checkpatch.yml",
               "correlation_id": "532542-2340529-leadtest-checkpatch-1",
               "id": 42521204865,
@@ -145,13 +145,13 @@
             {
               "time": "2026-11-08T20:42:12Z",
               "action": "workflow-updated",
-              "detail": "leadtest 532542-2340529-leadtest-checkpatch-1 run 42521204865, attempt 1: completed: success.",
+              "detail": "Checkpatch run 42521204865, attempt 1: completed: success.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
             },
             {
               "time": "2026-11-08T20:42:13Z",
               "action": "report-sent",
-              "detail": "Sent final email for github-robot: leadtest 532542-2340529-leadtest-checkpatch-1 (success). Message-ID: <leadtest.532542.2340529.github-robot-leadtest-532542-2340529-leadtest-checkpatch-1.final.1794170336.1@af-unspec.org>.",
+              "detail": "Sent final email for github-robot: Checkpatch (success). Message-ID: <leadtest.532542.2340529.github-robot-leadtest-532542-2340529-leadtest-checkpatch-1.final.1794170336.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42519785498/attempts/1"
             },
             {
