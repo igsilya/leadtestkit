@@ -28,7 +28,7 @@
           "number": 1,
           "name": "[ovs-dev] stream-ssl: Fix const qualifiers for OpenSSL 4.0.",
           "msgid": "<20261109165842.20523-1-rosemarie@redhat.com>",
-          "status": "pushed",
+          "status": "done",
           "sha": "376d6aaddf723794941024a3aa037795d9c28046",
           "pushed": "2026-11-09T16:59:29Z",
           "runs": [
@@ -230,6 +230,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.532745.2341025.github-robot-build-and-test.final.1794243560.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42663959640/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42660237484/attempts/1"
+            },
+            {
+              "time": "2026-11-09T17:32:15Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42663959640/attempts/1"
             }
           ]
         }
