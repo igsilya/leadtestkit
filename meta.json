@@ -27,45 +27,24 @@
       "retry": {
         "https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060034.html": {
           "op": "ingest",
-          "attempts": 2,
+          "attempts": 3,
           "last_error": "HTTP 502 from https://patchwork.ozlabs.org/api/1.2/patches/2340946/checks/?per_page=1024 with response \"(html page)\"",
           "first": "2026-11-09T18:39:48Z",
-          "next": "2026-11-09T19:05:55Z"
+          "next": "2026-11-09T19:32:55Z"
         },
         "https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060035.html": {
           "op": "ingest",
-          "attempts": 2,
+          "attempts": 3,
           "last_error": "HTTP 502 from https://patchwork.ozlabs.org/api/1.2/patches/2340946/checks/?per_page=1024 with response \"(html page)\"",
           "first": "2026-11-09T18:39:48Z",
-          "next": "2026-11-09T19:05:55Z"
-        },
-        "https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060036.html": {
-          "op": "ingest",
-          "attempts": 2,
-          "last_error": "HTTP 502 from https://patchwork.ozlabs.org/api/1.2/patches/2340947/checks/?per_page=1024 with response \"(html page)\"",
-          "first": "2026-11-09T18:39:48Z",
-          "next": "2026-11-09T19:05:55Z"
-        },
-        "https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060037.html": {
-          "op": "ingest",
-          "attempts": 2,
-          "last_error": "HTTP 502 from https://patchwork.ozlabs.org/api/1.2/patches/2340947/checks/?per_page=1024 with response \"(html page)\"",
-          "first": "2026-11-09T18:39:48Z",
-          "next": "2026-11-09T19:05:55Z"
-        },
-        "https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060038.html": {
-          "op": "ingest",
-          "attempts": 2,
-          "last_error": "HTTP 502 from https://patchwork.ozlabs.org/api/1.2/patches/2341025/checks/?per_page=1024 with response \"(html page)\"",
-          "first": "2026-11-09T18:39:48Z",
-          "next": "2026-11-09T19:05:55Z"
+          "next": "2026-11-09T19:32:55Z"
         },
         "https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060039.html": {
           "op": "ingest",
-          "attempts": 2,
+          "attempts": 3,
           "last_error": "HTTP 502 from https://patchwork.ozlabs.org/api/1.2/patches/2341025/checks/?per_page=1024 with response \"(html page)\"",
           "first": "2026-11-09T18:39:48Z",
-          "next": "2026-11-09T19:05:55Z"
+          "next": "2026-11-09T19:32:55Z"
         }
       }
     }
