@@ -442,8 +442,9 @@
           "number": 2,
           "name": "[ovs-dev,v4,2/2] dpif-offload-dummy: Exercise hw_post_process() alt_actions API.",
           "msgid": "<0ae344415ddcd5838da4df20f7ce3a814827d154.1794236893.git.echaudron@ovn.org>",
-          "status": "applied",
+          "status": "pushed",
           "sha": "0964ba1ef6eebd4c59fc6be15c6cb5be3d02d61f",
+          "pushed": "2026-11-09T15:53:08Z",
           "runs": [
             {
               "kind": "apply",
@@ -458,6 +459,16 @@
                 "email": "sent",
                 "message_id": "<leadtest.532718.2340947.apply-robot.final.1794239241.1@af-unspec.org>"
               }
+            },
+            {
+              "kind": "dispatch",
+              "workflow": "leadtest-checkpatch.yml",
+              "file": "leadtest-checkpatch.yml",
+              "correlation_id": "532718-2340947-leadtest-checkpatch-1",
+              "status": "requested",
+              "updated": "2026-11-09T15:53:12Z",
+              "pending": {},
+              "final": {}
             }
           ],
           "decisions": [
@@ -478,6 +489,18 @@
               "action": "report-sent",
               "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.532718.2340947.apply-robot.final.1794239241.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42646525166/attempts/1"
+            },
+            {
+              "time": "2026-11-09T15:53:10Z",
+              "action": "pushed",
+              "detail": "Updated branch series_532718 to 0964ba1ef6eebd4c59fc6be15c6cb5be3d02d61f.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42649008870/attempts/1"
+            },
+            {
+              "time": "2026-11-09T15:53:12Z",
+              "action": "dispatched",
+              "detail": "leadtest-checkpatch.yml from main for commit 0964ba1ef6eebd4c59fc6be15c6cb5be3d02d61f (request 532718-2340947-leadtest-checkpatch-1).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42649008870/attempts/1"
             }
           ]
         }
