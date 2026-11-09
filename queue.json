@@ -28,7 +28,7 @@
           "number": 1,
           "name": "[ovs-dev] ofproto-dpif-xlate: Slow-path oversized datapath actions.",
           "msgid": "<20261109070458.125152-1-hzhou@ovn.org>",
-          "status": "pushed",
+          "status": "done",
           "sha": "413324c8b75e7321f6e273c7a9ef923bf191338a",
           "pushed": "2026-11-09T07:08:02Z",
           "runs": [
@@ -236,6 +236,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.532630.2340751.github-robot-build-and-test.final.1794208077.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42578919597/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42577360581/attempts/1"
+            },
+            {
+              "time": "2026-11-09T07:38:33Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42580502514/attempts/1"
             }
           ]
         }
