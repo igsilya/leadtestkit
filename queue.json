@@ -28,7 +28,7 @@
           "number": 1,
           "name": "[ovs-dev] github: Fix debian package artifacts on differently named forks.",
           "msgid": "<20261109152506.3350362-1-i.maximets@ovn.org>",
-          "status": "pushed",
+          "status": "done",
           "sha": "8f4ca0fec0cd57a7de2ec92d226548cac335019f",
           "pushed": "2026-11-09T15:26:13Z",
           "runs": [
@@ -238,6 +238,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.532717.2340940.github-robot-build-and-test.final.1794237966.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42649008870/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42644658948/attempts/1"
+            },
+            {
+              "time": "2026-11-09T16:02:45Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42649008870/attempts/1"
             }
           ]
         }
