@@ -23,15 +23,6 @@
       "months": {
         "2026-November": 60033,
         "2026-October": 59801
-      },
-      "retry": {
-        "https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060033.html": {
-          "op": "ingest",
-          "attempts": 1,
-          "last_error": "HTTP 502 from https://patchwork.ozlabs.org/api/1.2/patches/2340910/ with response \"(html page)\"",
-          "first": "2026-11-09T17:39:47Z",
-          "next": "2026-11-09T17:44:47Z"
-        }
       }
     }
   },
