@@ -474,7 +474,7 @@
           "number": 3,
           "name": "[ovs-dev,v4,3/4] random: Provide OpenSSL EVP cipher as a CSPRNG source.",
           "msgid": "<20261110194812.401358-4-aconole@ovn.org>",
-          "status": "pushed",
+          "status": "done",
           "sha": "71bc686d82648ae2c6c75e4fee8e6c105ba3a919",
           "pushed": "2026-11-10T20:00:45Z",
           "runs": [
@@ -682,6 +682,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533013.2342104.github-robot-build-and-test.final.1794340290.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42899492468/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42890989613/attempts/1"
+            },
+            {
+              "time": "2026-11-10T21:02:32Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42899492468/attempts/1"
             }
           ]
         },
