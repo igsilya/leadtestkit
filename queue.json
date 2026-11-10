@@ -1,5 +1,5 @@
 {
-  "schema": 10,
+  "schema": 11,
   "series": [
     {
       "id": 532718,
@@ -54,13 +54,23 @@
               "file": "leadtest-checkpatch.yml",
               "correlation_id": "532718-2340946-leadtest-checkpatch-1",
               "id": 42648225893,
-              "attempt": 1,
+              "attempt": 2,
               "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42648225893",
-              "status": "requested",
-              "updated": "2026-11-10T12:29:56Z",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "warning",
+              "details": "Warnings:\n== Checking \"patch.mbox\" ==\nWARNING: Using 'static inline' in a c-file without ALWAYS_INLINE.\n#163 FILE: lib/dpif-netdev.c:7223:\nstatic inline void\n\nLines checked: 496, Warnings: 1, Errors: 0",
+              "updated": "2026-11-10T13:38:30Z",
+              "completed": "2026-11-10T13:38:30Z",
               "min_attempt": 1,
-              "pending": {},
-              "final": {}
+              "pending": {
+                "check": "skipped",
+                "email": "skipped"
+              },
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.532718.2340946.github-robot-checkpatch.final.1794239241.2@af-unspec.org>"
+              }
             },
             {
               "kind": "push",
@@ -268,6 +278,27 @@
               "action": "recheck-started",
               "detail": "1 reruns accepted; 0 workflows queued for dispatch.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42815183850/attempts/1"
+            },
+            {
+              "time": "2026-11-10T13:38:30Z",
+              "action": "workflow-updated",
+              "detail": "Checkpatch run 42648225893, attempt 2: completed: success.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42648225893/attempts/2"
+            },
+            {
+              "time": "2026-11-10T13:38:30Z",
+              "action": "workflow-warnings",
+              "detail": "Checkpatch run 42648225893, attempt 2 passed with 1 warning:\n== Checking \"patch.mbox\" ==\nWARNING: Using 'static inline' in a c-file without ALWAYS_INLINE.\n#163 FILE: lib/dpif-netdev.c:7223:\nstatic inline void\n\nLines checked: 496, Warnings: 1, Errors: 0",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42648225893/attempts/2"
+            },
+            {
+              "time": "2026-11-10T13:38:34Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: Checkpatch (warning). Message-ID: <leadtest.532718.2340946.github-robot-checkpatch.final.1794239241.2@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42648225893/attempts/2"
             }
           ]
         },
@@ -301,13 +332,23 @@
               "file": "leadtest-checkpatch.yml",
               "correlation_id": "532718-2340947-leadtest-checkpatch-1",
               "id": 42649142073,
-              "attempt": 1,
+              "attempt": 2,
               "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42649142073",
-              "status": "requested",
-              "updated": "2026-11-10T12:29:59Z",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "warning",
+              "details": "Warnings:\n== Checking \"patch.mbox\" ==\nWARNING: The subject, '<area>: <summary>', is over 70 characters, i.e., 72.\nSubject: [PATCH] dpif-offload-dummy: Exercise hw_post_process() alt_actions\n API.\nLines checked: 589, Warnings: 1, Errors: 0",
+              "updated": "2026-11-10T13:38:31Z",
+              "completed": "2026-11-10T13:38:31Z",
               "min_attempt": 1,
-              "pending": {},
-              "final": {}
+              "pending": {
+                "check": "skipped",
+                "email": "skipped"
+              },
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.532718.2340947.github-robot-checkpatch.final.1794239241.2@af-unspec.org>"
+              }
             },
             {
               "kind": "push",
@@ -521,6 +562,27 @@
               "action": "recheck-started",
               "detail": "1 reruns accepted; 0 workflows queued for dispatch.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42815183850/attempts/1"
+            },
+            {
+              "time": "2026-11-10T13:38:31Z",
+              "action": "workflow-updated",
+              "detail": "Checkpatch run 42649142073, attempt 2: completed: success.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42649142073/attempts/2"
+            },
+            {
+              "time": "2026-11-10T13:38:31Z",
+              "action": "workflow-warnings",
+              "detail": "Checkpatch run 42649142073, attempt 2 passed with 1 warning:\n== Checking \"patch.mbox\" ==\nWARNING: The subject, '<area>: <summary>', is over 70 characters, i.e., 72.\nSubject: [PATCH] dpif-offload-dummy: Exercise hw_post_process() alt_actions\n API.\nLines checked: 589, Warnings: 1, Errors: 0",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42649142073/attempts/2"
+            },
+            {
+              "time": "2026-11-10T13:38:36Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: Checkpatch (warning). Message-ID: <leadtest.532718.2340947.github-robot-checkpatch.final.1794239241.2@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42649142073/attempts/2"
             }
           ]
         }
