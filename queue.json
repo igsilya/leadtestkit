@@ -12,21 +12,81 @@
         "email": "echaudron@ovn.org"
       },
       "total": 1,
-      "status": "queued",
+      "status": "testing",
+      "base": {
+        "git_url": "https://github.com/openvswitch/ovs.git",
+        "branch": "main",
+        "sha": "abb88a628d3d21458fc8567eb94f6cba9f2cf82b",
+        "why": "default"
+      },
+      "branch": "series_532915",
       "discovered": "2026-11-10T12:15:12Z",
+      "started": "2026-11-10T12:16:10Z",
       "patches": [
         {
           "id": 2341765,
           "number": 1,
           "name": "[ovs-dev] netdev-dpdk: Free egress QoS configuration on port destruction.",
           "msgid": "<cac1a12c71cf1e6e96d14047fd9da69b7bad75cd.1794312801.git.echaudron@ovn.org>",
-          "status": "pending",
+          "status": "pushed",
+          "sha": "60d8fc6371ab691b8e10a2b1df110ea9fa00c0c6",
+          "pushed": "2026-11-10T12:16:14Z",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (abb88a628d3d).",
+              "updated": "2026-11-10T12:16:14Z",
+              "completed": "2026-11-10T12:16:14Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.532915.2341765.apply-robot.final.1794312970.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "dispatch",
+              "workflow": "leadtest-checkpatch.yml",
+              "file": "leadtest-checkpatch.yml",
+              "correlation_id": "532915-2341765-leadtest-checkpatch-1",
+              "status": "requested",
+              "updated": "2026-11-10T12:16:17Z",
+              "pending": {},
+              "final": {}
+            }
+          ],
           "decisions": [
             {
               "time": "2026-11-10T12:15:17Z",
               "action": "discovered",
               "detail": "Found in series 532915.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42810993691/attempts/1"
+            },
+            {
+              "time": "2026-11-10T12:16:14Z",
+              "action": "applied",
+              "detail": "Commit 60d8fc6371ab691b8e10a2b1df110ea9fa00c0c6 on base main (abb88a628d3d21458fc8567eb94f6cba9f2cf82b).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42813063594/attempts/1"
+            },
+            {
+              "time": "2026-11-10T12:16:15Z",
+              "action": "pushed",
+              "detail": "Updated branch series_532915 to 60d8fc6371ab691b8e10a2b1df110ea9fa00c0c6.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42813063594/attempts/1"
+            },
+            {
+              "time": "2026-11-10T12:16:17Z",
+              "action": "dispatched",
+              "detail": "leadtest-checkpatch.yml from main for commit 60d8fc6371ab691b8e10a2b1df110ea9fa00c0c6 (request 532915-2341765-leadtest-checkpatch-1).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42813063594/attempts/1"
+            },
+            {
+              "time": "2026-11-10T12:16:18Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.532915.2341765.apply-robot.final.1794312970.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42813063594/attempts/1"
             }
           ]
         }
@@ -43,6 +103,12 @@
           "action": "queued",
           "detail": "Eligible for testing; 1 patches.",
           "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42810993691/attempts/1"
+        },
+        {
+          "time": "2026-11-10T12:16:12Z",
+          "action": "base-selected",
+          "detail": "main at abb88a628d3d21458fc8567eb94f6cba9f2cf82b: default.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42813063594/attempts/1"
         }
       ]
     }
