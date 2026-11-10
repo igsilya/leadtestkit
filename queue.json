@@ -579,7 +579,7 @@
           "number": 1,
           "name": "[ovs-dev] netdev-dpdk: Free egress QoS configuration on port destruction.",
           "msgid": "<cac1a12c71cf1e6e96d14047fd9da69b7bad75cd.1794312801.git.echaudron@ovn.org>",
-          "status": "pushed",
+          "status": "done",
           "sha": "60d8fc6371ab691b8e10a2b1df110ea9fa00c0c6",
           "pushed": "2026-11-10T12:16:14Z",
           "runs": [
@@ -795,6 +795,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.532915.2341765.github-robot-build-and-test.final.1794312970.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42817325565/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42814318123/attempts/1"
+            },
+            {
+              "time": "2026-11-10T12:49:49Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42817325565/attempts/1"
             }
           ]
         }
