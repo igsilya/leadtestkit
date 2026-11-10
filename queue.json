@@ -1,4 +1,50 @@
 {
   "schema": 9,
-  "series": []
+  "series": [
+    {
+      "id": 532915,
+      "name": "[ovs-dev] netdev-dpdk: Free egress QoS configuration on port destruction.",
+      "version": 1,
+      "date": "2026-11-10T12:13:21+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=532915",
+      "submitter": {
+        "name": "Eelco Chaudron",
+        "email": "echaudron@ovn.org"
+      },
+      "total": 1,
+      "status": "queued",
+      "discovered": "2026-11-10T12:15:12Z",
+      "patches": [
+        {
+          "id": 2341765,
+          "number": 1,
+          "name": "[ovs-dev] netdev-dpdk: Free egress QoS configuration on port destruction.",
+          "msgid": "<cac1a12c71cf1e6e96d14047fd9da69b7bad75cd.1794312801.git.echaudron@ovn.org>",
+          "status": "pending",
+          "decisions": [
+            {
+              "time": "2026-11-10T12:15:17Z",
+              "action": "discovered",
+              "detail": "Found in series 532915.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42810993691/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-10T12:15:12Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42810993691/attempts/1"
+        },
+        {
+          "time": "2026-11-10T12:15:17Z",
+          "action": "queued",
+          "detail": "Eligible for testing; 1 patches.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42810993691/attempts/1"
+        }
+      ]
+    }
+  ]
 }
