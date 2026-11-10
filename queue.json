@@ -245,7 +245,7 @@
           "number": 2,
           "name": "[ovs-dev,v4,2/4] random: Implement a ChaCha20 based CSPRNG.",
           "msgid": "<20261110194812.401358-3-aconole@ovn.org>",
-          "status": "pushed",
+          "status": "done",
           "sha": "c58504db292f493baa17bfd10993e2adb221f5c6",
           "pushed": "2026-11-10T19:57:33Z",
           "runs": [
@@ -460,6 +460,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533013.2342105.github-robot-build-and-test.final.1794340290.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42897103947/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42890453896/attempts/1"
+            },
+            {
+              "time": "2026-11-10T20:47:29Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42897103947/attempts/1"
             }
           ]
         },
