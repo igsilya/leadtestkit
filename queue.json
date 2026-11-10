@@ -1,4 +1,80 @@
 {
   "schema": 11,
-  "series": []
+  "series": [
+    {
+      "id": 532999,
+      "name": "netlink: specs: fill in the missing ovs operations",
+      "version": 7,
+      "date": "2026-11-10T17:47:49+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=532999",
+      "submitter": {
+        "name": "Minxi Hou",
+        "email": "houminxi@gmail.com"
+      },
+      "total": 2,
+      "cover_id": 2342043,
+      "status": "skipped",
+      "reason": "kernel patch",
+      "discovered": "2026-11-10T17:52:48Z",
+      "finished": "2026-11-10T17:52:55Z",
+      "patches": [
+        {
+          "id": 2342044,
+          "number": 1,
+          "name": "[ovs-dev,net-next,v7,1/2] netlink: specs: add ovs_flow del and set operations",
+          "msgid": "<20261110174751.973464-2-houminxi@gmail.com>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-10T17:53:00Z",
+              "action": "discovered",
+              "detail": "Found in series 532999.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42869361623/attempts/1"
+            },
+            {
+              "time": "2026-11-10T17:53:00Z",
+              "action": "skipped",
+              "detail": "Series skipped: kernel patch",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42869361623/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2342045,
+          "number": 2,
+          "name": "[ovs-dev,net-next,v7,2/2] netlink: specs: add ovs datapath and vport set operations",
+          "msgid": "<20261110174751.973464-3-houminxi@gmail.com>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-10T17:53:00Z",
+              "action": "discovered",
+              "detail": "Found in series 532999.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42869361623/attempts/1"
+            },
+            {
+              "time": "2026-11-10T17:53:00Z",
+              "action": "skipped",
+              "detail": "Series skipped: kernel patch",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42869361623/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-10T17:52:48Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42869361623/attempts/1"
+        },
+        {
+          "time": "2026-11-10T17:53:00Z",
+          "action": "skipped",
+          "detail": "kernel patch",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42869361623/attempts/1"
+        }
+      ]
+    }
+  ]
 }
