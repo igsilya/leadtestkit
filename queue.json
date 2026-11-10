@@ -769,6 +769,12 @@
               "detail": "Build and Test run 42814318123, attempt 1: in_progress.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42813063594/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42814318123/attempts/1"
+            },
+            {
+              "time": "2026-11-10T12:43:36Z",
+              "action": "check-logged",
+              "detail": "Would post success check apply-robot from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060054.html",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42817325565/attempts/1"
             }
           ]
         }
