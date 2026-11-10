@@ -1,4 +1,249 @@
 {
   "schema": 11,
-  "series": []
+  "series": [
+    {
+      "id": 533013,
+      "name": "conntrack: Use a cryptographic PRNG for conntrack hashing.",
+      "version": 4,
+      "date": "2026-11-10T19:48:08+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=533013",
+      "submitter": {
+        "name": "Aaron Conole",
+        "email": "aconole@ovn.org"
+      },
+      "total": 4,
+      "cover_id": 2342103,
+      "status": "testing",
+      "base": {
+        "git_url": "https://github.com/openvswitch/ovs.git",
+        "branch": "main",
+        "sha": "abb88a628d3d21458fc8567eb94f6cba9f2cf82b",
+        "why": "default"
+      },
+      "branch": "series_533013",
+      "discovered": "2026-11-10T19:51:23Z",
+      "started": "2026-11-10T19:51:30Z",
+      "patches": [
+        {
+          "id": 2342101,
+          "number": 1,
+          "name": "[ovs-dev,v4,1/4] byte-order: Add le32 conversion routines.",
+          "msgid": "<20261110194812.401358-2-aconole@ovn.org>",
+          "status": "pushed",
+          "sha": "18a9787cb939cbdced32906f336d6539728fc4a3",
+          "pushed": "2026-11-10T19:51:59Z",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (abb88a628d3d).",
+              "updated": "2026-11-10T19:51:59Z",
+              "completed": "2026-11-10T19:51:59Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533013.2342101.apply-robot.final.1794340290.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "dispatch",
+              "workflow": "leadtest-checkpatch.yml",
+              "file": "leadtest-checkpatch.yml",
+              "correlation_id": "533013-2342101-leadtest-checkpatch-1",
+              "status": "requested",
+              "updated": "2026-11-10T19:52:02Z",
+              "pending": {},
+              "final": {}
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-10T19:51:29Z",
+              "action": "discovered",
+              "detail": "Found in series 533013.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:51:59Z",
+              "action": "applied",
+              "detail": "Commit 18a9787cb939cbdced32906f336d6539728fc4a3 on base main (abb88a628d3d21458fc8567eb94f6cba9f2cf82b).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:52:01Z",
+              "action": "pushed",
+              "detail": "Updated branch series_533013 to 18a9787cb939cbdced32906f336d6539728fc4a3.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:52:02Z",
+              "action": "dispatched",
+              "detail": "leadtest-checkpatch.yml from main for commit 18a9787cb939cbdced32906f336d6539728fc4a3 (request 533013-2342101-leadtest-checkpatch-1).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:52:03Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533013.2342101.apply-robot.final.1794340290.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2342105,
+          "number": 2,
+          "name": "[ovs-dev,v4,2/4] random: Implement a ChaCha20 based CSPRNG.",
+          "msgid": "<20261110194812.401358-3-aconole@ovn.org>",
+          "status": "applied",
+          "sha": "c58504db292f493baa17bfd10993e2adb221f5c6",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (abb88a628d3d).",
+              "updated": "2026-11-10T19:51:59Z",
+              "completed": "2026-11-10T19:51:59Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533013.2342105.apply-robot.final.1794340290.1@af-unspec.org>"
+              }
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-10T19:51:29Z",
+              "action": "discovered",
+              "detail": "Found in series 533013.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:51:59Z",
+              "action": "applied",
+              "detail": "Commit c58504db292f493baa17bfd10993e2adb221f5c6 on base main (abb88a628d3d21458fc8567eb94f6cba9f2cf82b).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:52:04Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533013.2342105.apply-robot.final.1794340290.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2342104,
+          "number": 3,
+          "name": "[ovs-dev,v4,3/4] random: Provide OpenSSL EVP cipher as a CSPRNG source.",
+          "msgid": "<20261110194812.401358-4-aconole@ovn.org>",
+          "status": "applied",
+          "sha": "71bc686d82648ae2c6c75e4fee8e6c105ba3a919",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (abb88a628d3d).",
+              "updated": "2026-11-10T19:51:59Z",
+              "completed": "2026-11-10T19:51:59Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533013.2342104.apply-robot.final.1794340290.1@af-unspec.org>"
+              }
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-10T19:51:29Z",
+              "action": "discovered",
+              "detail": "Found in series 533013.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:51:59Z",
+              "action": "applied",
+              "detail": "Commit 71bc686d82648ae2c6c75e4fee8e6c105ba3a919 on base main (abb88a628d3d21458fc8567eb94f6cba9f2cf82b).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:52:05Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533013.2342104.apply-robot.final.1794340290.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2342102,
+          "number": 4,
+          "name": "[ovs-dev,v4,4/4] conntrack: Use a cryptographic PRNG for conntrack hashing.",
+          "msgid": "<20261110194812.401358-5-aconole@ovn.org>",
+          "status": "applied",
+          "sha": "0fe44d2963004bff0fd121dfcbdb73e1346d42b0",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (abb88a628d3d).",
+              "updated": "2026-11-10T19:51:59Z",
+              "completed": "2026-11-10T19:51:59Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533013.2342102.apply-robot.final.1794340290.1@af-unspec.org>"
+              }
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-10T19:51:29Z",
+              "action": "discovered",
+              "detail": "Found in series 533013.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:51:59Z",
+              "action": "applied",
+              "detail": "Commit 0fe44d2963004bff0fd121dfcbdb73e1346d42b0 on base main (abb88a628d3d21458fc8567eb94f6cba9f2cf82b).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T19:52:07Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533013.2342102.apply-robot.final.1794340290.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-10T19:51:23Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+        },
+        {
+          "time": "2026-11-10T19:51:29Z",
+          "action": "queued",
+          "detail": "Eligible for testing; 4 patches.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+        },
+        {
+          "time": "2026-11-10T19:51:58Z",
+          "action": "base-selected",
+          "detail": "main at abb88a628d3d21458fc8567eb94f6cba9f2cf82b: default.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+        }
+      ]
+    }
+  ]
 }
