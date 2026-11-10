@@ -401,6 +401,12 @@
               "detail": "Sent final email for github-robot: FreeBSD Build and Test (success). Message-ID: <leadtest.533013.2342105.github-robot-freebsd-build-and-test.final.1794340290.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42889589476/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42890454048/attempts/1"
+            },
+            {
+              "time": "2026-11-10T20:11:35Z",
+              "action": "check-logged",
+              "detail": "Would post success check apply-robot from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060080.html",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42892104810/attempts/1"
             }
           ]
         },
@@ -584,6 +590,12 @@
               "detail": "Sent final email for github-robot: FreeBSD Build and Test (success). Message-ID: <leadtest.533013.2342104.github-robot-freebsd-build-and-test.final.1794340290.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42889589476/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42890989451/attempts/1"
+            },
+            {
+              "time": "2026-11-10T20:11:40Z",
+              "action": "check-logged",
+              "detail": "Would post success check apply-robot from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060081.html",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42892104810/attempts/1"
             }
           ]
         },
