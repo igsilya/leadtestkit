@@ -666,6 +666,12 @@
               "action": "report-sent",
               "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533013.2342102.apply-robot.final.1794340290.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42887109577/attempts/1"
+            },
+            {
+              "time": "2026-11-10T20:23:27Z",
+              "action": "check-logged",
+              "detail": "Would post success check apply-robot from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060082.html",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42894627152/attempts/1"
             }
           ]
         }
