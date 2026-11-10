@@ -29,7 +29,7 @@
           "number": 1,
           "name": "[ovs-dev,v4,1/2] dpif-offload: Add support for alternative actions.",
           "msgid": "<f3176477e20bb8f10157af6918d48b647a78ea65.1794236893.git.echaudron@ovn.org>",
-          "status": "pushed",
+          "status": "done",
           "sha": "79866332033f2716e9d4527642bfbdae2ccee2f1",
           "pushed": "2026-11-10T12:29:56Z",
           "comments_seen": 3787251,
@@ -299,6 +299,12 @@
               "detail": "Sent final email for github-robot: Checkpatch (warning). Message-ID: <leadtest.532718.2340946.github-robot-checkpatch.final.1794239241.2@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42648225893/attempts/2"
+            },
+            {
+              "time": "2026-11-10T13:43:02Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1"
             }
           ]
         },
@@ -307,7 +313,7 @@
           "number": 2,
           "name": "[ovs-dev,v4,2/2] dpif-offload-dummy: Exercise hw_post_process() alt_actions API.",
           "msgid": "<0ae344415ddcd5838da4df20f7ce3a814827d154.1794236893.git.echaudron@ovn.org>",
-          "status": "pushed",
+          "status": "done",
           "sha": "0964ba1ef6eebd4c59fc6be15c6cb5be3d02d61f",
           "pushed": "2026-11-10T12:29:59Z",
           "comments_seen": 3787250,
@@ -583,6 +589,12 @@
               "detail": "Sent final email for github-robot: Checkpatch (warning). Message-ID: <leadtest.532718.2340947.github-robot-checkpatch.final.1794239241.2@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42649142073/attempts/2"
+            },
+            {
+              "time": "2026-11-10T13:43:08Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42826210297/attempts/1"
             }
           ]
         }
