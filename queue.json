@@ -75,14 +75,20 @@
               "id": 42889537025,
               "attempt": 1,
               "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42889537025",
-              "status": "in_progress",
-              "updated": "2026-11-10T20:04:22Z",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "success",
+              "updated": "2026-11-10T20:22:21Z",
+              "completed": "2026-11-10T20:22:21Z",
               "pending": {
                 "check": "logged",
                 "email": "sent",
                 "message_id": "<leadtest.533013.2342101.github-robot-build-and-test.pending.1794340290.1@af-unspec.org>"
               },
-              "final": {}
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533013.2342101.github-robot-build-and-test.final.1794340290.1@af-unspec.org>"
+              }
             },
             {
               "kind": "push",
@@ -210,6 +216,20 @@
               "action": "workflow-updated",
               "detail": "Build and Test run 42889537025, attempt 1: in_progress.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42889589476/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42889537025/attempts/1"
+            },
+            {
+              "time": "2026-11-10T20:22:21Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 42889537025, attempt 1: completed: success.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42892104810/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42889537025/attempts/1"
+            },
+            {
+              "time": "2026-11-10T20:22:23Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533013.2342101.github-robot-build-and-test.final.1794340290.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42892104810/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42889537025/attempts/1"
             }
           ]
