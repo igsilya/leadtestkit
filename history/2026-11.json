@@ -4043,6 +4043,287 @@
           "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42901909752/attempts/1"
         }
       ]
+    },
+    {
+      "id": 533081,
+      "name": "[ovs-dev,v4] dpif-offload: Add support for offload provider specific dp-hash.",
+      "version": 4,
+      "date": "2026-11-11T09:52:09+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=533081",
+      "submitter": {
+        "name": "Eelco Chaudron",
+        "email": "echaudron@ovn.org"
+      },
+      "total": 1,
+      "status": "done",
+      "base": {
+        "git_url": "https://github.com/openvswitch/ovs.git",
+        "branch": "main",
+        "sha": "abb88a628d3d21458fc8567eb94f6cba9f2cf82b",
+        "why": "default"
+      },
+      "branch": "series_533081",
+      "discovered": "2026-11-11T09:53:22Z",
+      "started": "2026-11-11T09:58:16Z",
+      "finished": "2026-11-11T10:31:32Z",
+      "patches": [
+        {
+          "id": 2342363,
+          "number": 1,
+          "name": "[ovs-dev,v4] dpif-offload: Add support for offload provider specific dp-hash.",
+          "msgid": "<c418723338ce0d55699840f52b06272041cc9661.1794390729.git.echaudron@ovn.org>",
+          "status": "done",
+          "sha": "0d3d7d685c7961d1d5aaef3758120957cb44389e",
+          "pushed": "2026-11-11T09:58:23Z",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (abb88a628d3d).",
+              "updated": "2026-11-11T09:58:23Z",
+              "completed": "2026-11-11T09:58:23Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533081.2342363.apply-robot.final.1794391096.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "dispatch",
+              "workflow": "Checkpatch",
+              "file": "leadtest-checkpatch.yml",
+              "correlation_id": "533081-2342363-leadtest-checkpatch-1",
+              "id": 42999648682,
+              "attempt": 1,
+              "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648682",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "warning",
+              "details": "Warnings:\n== Checking \"patch.mbox\" ==\nWARNING: The subject, '<area>: <summary>', is over 70 characters, i.e., 73.\nSubject: [PATCH] dpif-offload: Add support for offload provider specific\n dp-hash.\nLines checked: 671, Warnings: 1, Errors: 0",
+              "updated": "2026-11-11T10:02:52Z",
+              "completed": "2026-11-11T10:02:52Z",
+              "pending": {
+                "check": "skipped",
+                "email": "skipped"
+              },
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533081.2342363.github-robot-checkpatch.final.1794391096.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "push",
+              "workflow": "Build and Test",
+              "id": 42999648627,
+              "attempt": 1,
+              "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648627",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "success",
+              "updated": "2026-11-11T10:26:57Z",
+              "completed": "2026-11-11T10:26:57Z",
+              "pending": {
+                "check": "logged",
+                "email": "sent",
+                "message_id": "<leadtest.533081.2342363.github-robot-build-and-test.pending.1794391096.1@af-unspec.org>"
+              },
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533081.2342363.github-robot-build-and-test.final.1794391096.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "push",
+              "workflow": "FreeBSD Build and Test",
+              "id": 42999648622,
+              "attempt": 1,
+              "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648622",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "success",
+              "updated": "2026-11-11T10:06:02Z",
+              "completed": "2026-11-11T10:06:02Z",
+              "pending": {
+                "check": "logged",
+                "email": "sent",
+                "message_id": "<leadtest.533081.2342363.github-robot-freebsd-build-and-test.pending.1794391096.1@af-unspec.org>"
+              },
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533081.2342363.github-robot-freebsd-build-and-test.final.1794391096.1@af-unspec.org>"
+              }
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-11T09:58:09Z",
+              "action": "discovered",
+              "detail": "Found in series 533081.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+            },
+            {
+              "time": "2026-11-11T09:58:23Z",
+              "action": "applied",
+              "detail": "Commit 0d3d7d685c7961d1d5aaef3758120957cb44389e on base main (abb88a628d3d21458fc8567eb94f6cba9f2cf82b).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+            },
+            {
+              "time": "2026-11-11T09:58:24Z",
+              "action": "pushed",
+              "detail": "Updated branch series_533081 to 0d3d7d685c7961d1d5aaef3758120957cb44389e.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+            },
+            {
+              "time": "2026-11-11T09:58:26Z",
+              "action": "dispatched",
+              "detail": "leadtest-checkpatch.yml from main for commit 0d3d7d685c7961d1d5aaef3758120957cb44389e (request 533081-2342363-leadtest-checkpatch-1).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+            },
+            {
+              "time": "2026-11-11T09:58:27Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533081.2342363.apply-robot.final.1794391096.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:02:52Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 42999648627, attempt 1: queued.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648627/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:02:52Z",
+              "action": "workflow-updated",
+              "detail": "FreeBSD Build and Test run 42999648622, attempt 1: in_progress.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648622/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:02:52Z",
+              "action": "workflow-updated",
+              "detail": "Checkpatch run 42999648682, attempt 1: completed: success.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648682/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:02:53Z",
+              "action": "workflow-warnings",
+              "detail": "Checkpatch run 42999648682, attempt 1 passed with 1 warning:\n== Checking \"patch.mbox\" ==\nWARNING: The subject, '<area>: <summary>', is over 70 characters, i.e., 73.\nSubject: [PATCH] dpif-offload: Add support for offload provider specific\n dp-hash.\nLines checked: 671, Warnings: 1, Errors: 0",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648682/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:02:56Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: Checkpatch (warning). Message-ID: <leadtest.533081.2342363.github-robot-checkpatch.final.1794391096.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648682/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:02:56Z",
+              "action": "check-logged",
+              "detail": "Would post pending check github-robot-_Build_and_Test linking to https://github.com/fuzzfactor/ovs-test/actions/runs/42999648627",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:02:57Z",
+              "action": "report-sent",
+              "detail": "Sent pending email for github-robot: Build and Test (pending). Message-ID: <leadtest.533081.2342363.github-robot-build-and-test.pending.1794391096.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648627/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:02:57Z",
+              "action": "check-logged",
+              "detail": "Would post pending check github-robot-_FreeBSD_Build_and_Test linking to https://github.com/fuzzfactor/ovs-test/actions/runs/42999648622",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:02:58Z",
+              "action": "report-sent",
+              "detail": "Sent pending email for github-robot: FreeBSD Build and Test (pending). Message-ID: <leadtest.533081.2342363.github-robot-freebsd-build-and-test.pending.1794391096.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648622/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:06:02Z",
+              "action": "workflow-updated",
+              "detail": "FreeBSD Build and Test run 42999648622, attempt 1: completed: success.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648622/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:06:03Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: FreeBSD Build and Test (success). Message-ID: <leadtest.533081.2342363.github-robot-freebsd-build-and-test.final.1794391096.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648622/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:07:51Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 42999648627, attempt 1: in_progress.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43000924784/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648627/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:23:05Z",
+              "action": "check-logged",
+              "detail": "Would post success check apply-robot from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060107.html",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43003060847/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:26:57Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 42999648627, attempt 1: completed: success.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43003060847/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648627/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:27:01Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533081.2342363.github-robot-build-and-test.final.1794391096.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43003060847/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648627/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:31:28Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43003060847/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-11T09:53:22Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+        },
+        {
+          "time": "2026-11-11T09:58:09Z",
+          "action": "queued",
+          "detail": "Eligible for testing; 1 patches.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+        },
+        {
+          "time": "2026-11-11T09:58:21Z",
+          "action": "base-selected",
+          "detail": "main at abb88a628d3d21458fc8567eb94f6cba9f2cf82b: default.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+        },
+        {
+          "time": "2026-11-11T10:31:32Z",
+          "action": "done",
+          "detail": "All patches and reports are complete.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43003060847/attempts/1"
+        }
+      ]
     }
   ]
 }
