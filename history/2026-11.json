@@ -4331,6 +4331,102 @@
           "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43003060847/attempts/1"
         }
       ]
+    },
+    {
+      "id": 533159,
+      "name": "net: fix stacked VLAN header corruption in TX offloads and OVS",
+      "version": 1,
+      "date": "2026-11-11T17:37:49+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=533159",
+      "submitter": {
+        "name": "Gabriel Goller",
+        "email": "g.goller@proxmox.com"
+      },
+      "total": 3,
+      "cover_id": 2342660,
+      "status": "skipped",
+      "reason": "RFC",
+      "discovered": "2026-11-11T18:14:14Z",
+      "finished": "2026-11-11T18:14:14Z",
+      "patches": [
+        {
+          "id": 2342659,
+          "number": 1,
+          "name": "[ovs-dev,RFC,net,1/3] net: restore the L3 header before VLAN TX offload checks",
+          "msgid": "<20261111-net_restore_the-v1-1-6aaeffa601c9@proxmox.com>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-11T18:14:20Z",
+              "action": "discovered",
+              "detail": "Found in series 533159.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43074715246/attempts/1"
+            },
+            {
+              "time": "2026-11-11T18:14:20Z",
+              "action": "skipped",
+              "detail": "Series skipped: RFC",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43074715246/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2342661,
+          "number": 2,
+          "name": "[ovs-dev,RFC,net,2/3] openvswitch: preserve the L3 header after stacked VLAN pushes",
+          "msgid": "<20261111-net_restore_the-v1-2-6aaeffa601c9@proxmox.com>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-11T18:14:20Z",
+              "action": "discovered",
+              "detail": "Found in series 533159.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43074715246/attempts/1"
+            },
+            {
+              "time": "2026-11-11T18:14:20Z",
+              "action": "skipped",
+              "detail": "Series skipped: RFC",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43074715246/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2342662,
+          "number": 3,
+          "name": "[ovs-dev,RFC,net,3/3] net: test stacked VLAN headers before TX offloads",
+          "msgid": "<20261111-net_restore_the-v1-3-6aaeffa601c9@proxmox.com>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-11T18:14:20Z",
+              "action": "discovered",
+              "detail": "Found in series 533159.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43074715246/attempts/1"
+            },
+            {
+              "time": "2026-11-11T18:14:20Z",
+              "action": "skipped",
+              "detail": "Series skipped: RFC",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43074715246/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-11T18:14:14Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43074715246/attempts/1"
+        },
+        {
+          "time": "2026-11-11T18:14:20Z",
+          "action": "skipped",
+          "detail": "RFC",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43074715246/attempts/1"
+        }
+      ]
     }
   ]
 }
