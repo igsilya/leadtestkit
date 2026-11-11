@@ -75,8 +75,8 @@
               "id": 42999648627,
               "attempt": 1,
               "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648627",
-              "status": "queued",
-              "updated": "2026-11-11T10:02:52Z",
+              "status": "in_progress",
+              "updated": "2026-11-11T10:07:51Z",
               "pending": {
                 "check": "logged",
                 "email": "sent",
@@ -211,6 +211,13 @@
               "detail": "Sent final email for github-robot: FreeBSD Build and Test (success). Message-ID: <leadtest.533081.2342363.github-robot-freebsd-build-and-test.final.1794391096.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648622/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:07:51Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 42999648627, attempt 1: in_progress.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43000924784/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/42999648627/attempts/1"
             }
           ]
         }
