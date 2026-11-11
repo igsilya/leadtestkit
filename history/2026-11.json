@@ -1,5 +1,5 @@
 {
-  "schema": 11,
+  "schema": 12,
   "series": [
     {
       "id": 532383,
@@ -646,6 +646,7 @@
           "status": "done",
           "sha": "ca68e8ee62962040a33f5f4d592f1534f150367b",
           "pushed": "2026-11-08T18:11:15Z",
+          "comments_seen": 3786649,
           "runs": [
             {
               "kind": "apply",

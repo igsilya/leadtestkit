@@ -1,5 +1,6 @@
 {
-  "schema": 11,
+  "schema": 12,
+  "since": "2026-11-10T16:39:05Z",
   "failing": {},
   "periods": [
     {
