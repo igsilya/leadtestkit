@@ -1,4 +1,25 @@
 {
   "schema": 11,
-  "series": []
+  "series": [
+    {
+      "id": 533081,
+      "name": "",
+      "date": "",
+      "submitter": {
+        "email": ""
+      },
+      "total": 0,
+      "status": "new",
+      "discovered": "2026-11-11T09:53:22Z",
+      "patches": [],
+      "decisions": [
+        {
+          "time": "2026-11-11T09:53:22Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/42998811350/attempts/1"
+        }
+      ]
+    }
+  ]
 }
