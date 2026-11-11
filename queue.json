@@ -28,7 +28,7 @@
           "number": 1,
           "name": "[ovs-dev] stream-ssl: Fix sending buffers larger than INT_MAX bytes.",
           "msgid": "<20261111211742.1462368-1-guilherme.paulo@magalu.cloud>",
-          "status": "pushed",
+          "status": "done",
           "sha": "085e48be6300055d95f1e56820a718165988ffbc",
           "pushed": "2026-11-11T21:20:17Z",
           "runs": [
@@ -230,6 +230,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533188.2342803.github-robot-build-and-test.final.1794432010.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43104671654/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43102171788/attempts/1"
+            },
+            {
+              "time": "2026-11-11T21:53:01Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43104671654/attempts/1"
             }
           ]
         }
