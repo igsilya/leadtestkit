@@ -4294,6 +4294,12 @@
               "action": "done",
               "detail": "Testing and reporting are complete.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43003060847/attempts/1"
+            },
+            {
+              "time": "2026-11-11T10:57:34Z",
+              "action": "check-logged",
+              "detail": "Would post success check github-robot-_FreeBSD_Build_and_Test from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060109.html",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43007223476/attempts/1"
             }
           ]
         }
