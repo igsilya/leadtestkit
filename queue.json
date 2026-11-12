@@ -1,4 +1,116 @@
 {
   "schema": 12,
-  "series": []
+  "series": [
+    {
+      "id": 533357,
+      "name": "[ovs-dev,v2] netdev-offload-tc: Retry TC offload when recirc chain is registered.",
+      "version": 2,
+      "date": "2026-11-12T14:28:49+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=533357",
+      "submitter": {
+        "name": "Eelco Chaudron",
+        "email": "echaudron@ovn.org"
+      },
+      "total": 1,
+      "status": "testing",
+      "base": {
+        "git_url": "https://github.com/openvswitch/ovs.git",
+        "branch": "main",
+        "sha": "779c08f1436ae6df90276b8c3027ebd79282d00c",
+        "why": "default"
+      },
+      "branch": "series_533357",
+      "discovered": "2026-11-12T14:33:22Z",
+      "started": "2026-11-12T14:33:29Z",
+      "patches": [
+        {
+          "id": 2343516,
+          "number": 1,
+          "name": "[ovs-dev,v2] netdev-offload-tc: Retry TC offload when recirc chain is registered.",
+          "msgid": "<d1a8a874784747c5303fb47f768dd7b141d7d7f6.1794493729.git.echaudron@ovn.org>",
+          "status": "pushed",
+          "sha": "2709b0adf6932691f344e5fcdf5df56fae67c409",
+          "pushed": "2026-11-12T14:33:36Z",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (779c08f1436a).",
+              "updated": "2026-11-12T14:33:36Z",
+              "completed": "2026-11-12T14:33:36Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533357.2343516.apply-robot.final.1794494009.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "dispatch",
+              "workflow": "leadtest-checkpatch.yml",
+              "file": "leadtest-checkpatch.yml",
+              "correlation_id": "533357-2343516-leadtest-checkpatch-1",
+              "status": "requested",
+              "updated": "2026-11-12T14:33:39Z",
+              "pending": {},
+              "final": {}
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-12T14:33:28Z",
+              "action": "discovered",
+              "detail": "Found in series 533357.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43236489702/attempts/1"
+            },
+            {
+              "time": "2026-11-12T14:33:36Z",
+              "action": "applied",
+              "detail": "Commit 2709b0adf6932691f344e5fcdf5df56fae67c409 on base main (779c08f1436ae6df90276b8c3027ebd79282d00c).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43236489702/attempts/1"
+            },
+            {
+              "time": "2026-11-12T14:33:37Z",
+              "action": "pushed",
+              "detail": "Updated branch series_533357 to 2709b0adf6932691f344e5fcdf5df56fae67c409.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43236489702/attempts/1"
+            },
+            {
+              "time": "2026-11-12T14:33:39Z",
+              "action": "dispatched",
+              "detail": "leadtest-checkpatch.yml from main for commit 2709b0adf6932691f344e5fcdf5df56fae67c409 (request 533357-2343516-leadtest-checkpatch-1).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43236489702/attempts/1"
+            },
+            {
+              "time": "2026-11-12T14:33:40Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533357.2343516.apply-robot.final.1794494009.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43236489702/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-12T14:33:22Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43236489702/attempts/1"
+        },
+        {
+          "time": "2026-11-12T14:33:28Z",
+          "action": "queued",
+          "detail": "Eligible for testing; 1 patches.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43236489702/attempts/1"
+        },
+        {
+          "time": "2026-11-12T14:33:34Z",
+          "action": "base-selected",
+          "detail": "main at 779c08f1436ae6df90276b8c3027ebd79282d00c: default.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43236489702/attempts/1"
+        }
+      ]
+    }
+  ]
 }
