@@ -5844,6 +5844,279 @@
           "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43244360416/attempts/1"
         }
       ]
+    },
+    {
+      "id": 533412,
+      "name": "[ovs-dev] Documentation: Update sections about AI assistants.",
+      "version": 1,
+      "date": "2026-11-12T19:00:39+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=533412",
+      "submitter": {
+        "name": "Aaron Conole",
+        "email": "aconole@ovn.org"
+      },
+      "total": 1,
+      "status": "done",
+      "base": {
+        "git_url": "https://github.com/openvswitch/ovs.git",
+        "branch": "main",
+        "sha": "779c08f1436ae6df90276b8c3027ebd79282d00c",
+        "why": "default"
+      },
+      "branch": "series_533412",
+      "discovered": "2026-11-12T19:02:04Z",
+      "started": "2026-11-12T19:02:21Z",
+      "finished": "2026-11-12T19:32:39Z",
+      "patches": [
+        {
+          "id": 2343665,
+          "number": 1,
+          "name": "[ovs-dev] Documentation: Update sections about AI assistants.",
+          "msgid": "<20261112190039.85042-1-aconole@ovn.org>",
+          "status": "done",
+          "sha": "d14ecaff695ae36759bada74b37bd60a2225610b",
+          "pushed": "2026-11-12T19:02:25Z",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (779c08f1436a).",
+              "updated": "2026-11-12T19:02:25Z",
+              "completed": "2026-11-12T19:02:25Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533412.2343665.apply-robot.final.1794510141.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "dispatch",
+              "workflow": "Checkpatch",
+              "file": "leadtest-checkpatch.yml",
+              "correlation_id": "533412-2343665-leadtest-checkpatch-1",
+              "id": 43286032822,
+              "attempt": 1,
+              "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286032822",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "success",
+              "updated": "2026-11-12T19:05:38Z",
+              "completed": "2026-11-12T19:05:38Z",
+              "pending": {
+                "check": "skipped",
+                "email": "skipped"
+              },
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533412.2343665.github-robot-checkpatch.final.1794510141.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "push",
+              "workflow": "Build and Test",
+              "id": 43286034728,
+              "attempt": 1,
+              "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034728",
+              "status": "completed",
+              "conclusion": "failure",
+              "result": "fail",
+              "updated": "2026-11-12T19:29:22Z",
+              "completed": "2026-11-12T19:29:22Z",
+              "pending": {
+                "check": "logged",
+                "email": "sent",
+                "message_id": "<leadtest.533412.2343665.github-robot-build-and-test.pending.1794510141.1@af-unspec.org>"
+              },
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533412.2343665.github-robot-build-and-test.final.1794510141.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "push",
+              "workflow": "FreeBSD Build and Test",
+              "id": 43286034722,
+              "attempt": 1,
+              "url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034722",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "success",
+              "updated": "2026-11-12T19:08:51Z",
+              "completed": "2026-11-12T19:08:51Z",
+              "pending": {
+                "check": "logged",
+                "email": "sent",
+                "message_id": "<leadtest.533412.2343665.github-robot-freebsd-build-and-test.pending.1794510141.1@af-unspec.org>"
+              },
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533412.2343665.github-robot-freebsd-build-and-test.final.1794510141.1@af-unspec.org>"
+              }
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-12T19:02:18Z",
+              "action": "discovered",
+              "detail": "Found in series 533412.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:02:25Z",
+              "action": "applied",
+              "detail": "Commit d14ecaff695ae36759bada74b37bd60a2225610b on base main (779c08f1436ae6df90276b8c3027ebd79282d00c).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:02:26Z",
+              "action": "pushed",
+              "detail": "Updated branch series_533412 to d14ecaff695ae36759bada74b37bd60a2225610b.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:02:28Z",
+              "action": "dispatched",
+              "detail": "leadtest-checkpatch.yml from main for commit d14ecaff695ae36759bada74b37bd60a2225610b (request 533412-2343665-leadtest-checkpatch-1).",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:02:30Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533412.2343665.apply-robot.final.1794510141.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:05:38Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 43286034728, attempt 1: queued.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034728/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:05:38Z",
+              "action": "workflow-updated",
+              "detail": "FreeBSD Build and Test run 43286034722, attempt 1: in_progress.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034722/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:05:38Z",
+              "action": "workflow-updated",
+              "detail": "Checkpatch run 43286032822, attempt 1: completed: success.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286032822/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:05:43Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: Checkpatch (success). Message-ID: <leadtest.533412.2343665.github-robot-checkpatch.final.1794510141.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286032822/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:05:43Z",
+              "action": "check-logged",
+              "detail": "Would post pending check github-robot-_Build_and_Test linking to https://github.com/fuzzfactor/ovs-test/actions/runs/43286034728",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:05:44Z",
+              "action": "report-sent",
+              "detail": "Sent pending email for github-robot: Build and Test (pending). Message-ID: <leadtest.533412.2343665.github-robot-build-and-test.pending.1794510141.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034728/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:05:44Z",
+              "action": "check-logged",
+              "detail": "Would post pending check github-robot-_FreeBSD_Build_and_Test linking to https://github.com/fuzzfactor/ovs-test/actions/runs/43286034722",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:05:46Z",
+              "action": "report-sent",
+              "detail": "Sent pending email for github-robot: FreeBSD Build and Test (pending). Message-ID: <leadtest.533412.2343665.github-robot-freebsd-build-and-test.pending.1794510141.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034722/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:08:51Z",
+              "action": "workflow-updated",
+              "detail": "FreeBSD Build and Test run 43286034722, attempt 1: completed: success.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034722/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:08:55Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: FreeBSD Build and Test (success). Message-ID: <leadtest.533412.2343665.github-robot-freebsd-build-and-test.final.1794510141.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034722/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:11:59Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 43286034728, attempt 1: in_progress.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034728/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:29:22Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 43286034728, attempt 1: completed: failure.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43289480682/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034728/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:29:28Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: Build and Test (fail). Message-ID: <leadtest.533412.2343665.github-robot-build-and-test.final.1794510141.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43289480682/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034728/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:29:32Z",
+              "action": "check-logged",
+              "detail": "Would post success check apply-robot from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060129.html",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43289480682/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:32:34Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43289480682/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-12T19:02:04Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+        },
+        {
+          "time": "2026-11-12T19:02:18Z",
+          "action": "queued",
+          "detail": "Eligible for testing; 1 patches.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+        },
+        {
+          "time": "2026-11-12T19:02:24Z",
+          "action": "base-selected",
+          "detail": "main at 779c08f1436ae6df90276b8c3027ebd79282d00c: default.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43284313102/attempts/1"
+        },
+        {
+          "time": "2026-11-12T19:32:39Z",
+          "action": "done",
+          "detail": "All patches and reports are complete.",
+          "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43289480682/attempts/1"
+        }
+      ]
     }
   ]
 }
