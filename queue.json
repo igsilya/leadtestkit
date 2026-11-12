@@ -28,7 +28,7 @@
           "number": 1,
           "name": "[ovs-dev,v2] netdev-offload-tc: Retry TC offload when recirc chain is registered.",
           "msgid": "<d1a8a874784747c5303fb47f768dd7b141d7d7f6.1794493729.git.echaudron@ovn.org>",
-          "status": "pushed",
+          "status": "done",
           "sha": "2709b0adf6932691f344e5fcdf5df56fae67c409",
           "pushed": "2026-11-12T14:33:36Z",
           "runs": [
@@ -238,6 +238,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533357.2343516.github-robot-build-and-test.final.1794494009.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43241707444/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43238455836/attempts/1"
+            },
+            {
+              "time": "2026-11-12T15:07:53Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43244360416/attempts/1"
             }
           ]
         }
