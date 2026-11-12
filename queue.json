@@ -28,7 +28,7 @@
           "number": 1,
           "name": "[ovs-dev,v3] ofproto/bond: Add 'multicast' to all-members-active.",
           "msgid": "<20261112094555.60425-1-Sola.Zhang@citrix.com>",
-          "status": "pushed",
+          "status": "done",
           "sha": "a373013355592448bc527f000055001dea5bdf79",
           "pushed": "2026-11-12T09:48:03Z",
           "runs": [
@@ -242,6 +242,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533293.2343281.github-robot-build-and-test.final.1794476875.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43198549529/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43194671376/attempts/1"
+            },
+            {
+              "time": "2026-11-12T10:32:28Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43198549529/attempts/1"
             }
           ]
         }
