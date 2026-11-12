@@ -230,6 +230,12 @@
               "detail": "Sent final email for github-robot: Build and Test (fail). Message-ID: <leadtest.533412.2343665.github-robot-build-and-test.final.1794510141.1@af-unspec.org>.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43289480682/attempts/1",
               "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43286034728/attempts/1"
+            },
+            {
+              "time": "2026-11-12T19:29:32Z",
+              "action": "check-logged",
+              "detail": "Would post success check apply-robot from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060129.html",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43289480682/attempts/1"
             }
           ]
         }
