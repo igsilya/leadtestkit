@@ -17,7 +17,7 @@ upstream:
   default_branch: main
 
 test_repo:
-  repo: fuzzfactor/ovs-test
+  repo: openvswitch-ci/ovs-test
 
 report:
   style: ovs

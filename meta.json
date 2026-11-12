@@ -4,7 +4,7 @@
   "instance": {
     "patchwork": "https://patchwork.ozlabs.org",
     "project": "openvswitch",
-    "test_repo": "github.com/fuzzfactor/ovs-test"
+    "test_repo": "github.com/openvswitch-ci/ovs-test"
   },
   "tools_synced": "2026-11-07T00:07:40Z",
   "events": {
