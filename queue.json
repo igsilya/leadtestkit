@@ -84,14 +84,9 @@
                 "email": "sent",
                 "message_id": "<leadtest.533293.2343281.github-robot-build-and-test.pending.1794476875.1@af-unspec.org>"
               },
-              "final": {},
-              "failure": {
-                "op": "report email",
-                "attempts": 1,
-                "last_error": "smtp auth: 421 4.4.2 An internal server error has occurred, please try again later.",
-                "first": "2026-11-12T10:20:26Z",
-                "next": "2026-11-12T10:25:26Z",
-                "cause": "email"
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533293.2343281.github-robot-build-and-test.final.1794476875.1@af-unspec.org>"
               }
             },
             {
@@ -240,6 +235,13 @@
               "action": "report-failed",
               "detail": "Final email for github-robot: Build and Test: smtp auth: 421 4.4.2 An internal server error has occurred, please try again later.",
               "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43198549529/attempts/1"
+            },
+            {
+              "time": "2026-11-12T10:28:03Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533293.2343281.github-robot-build-and-test.final.1794476875.1@af-unspec.org>.",
+              "run_url": "https://github.com/igsilya/leadtestkit/actions/runs/43198549529/attempts/1",
+              "workflow_url": "https://github.com/fuzzfactor/ovs-test/actions/runs/43194671376/attempts/1"
             }
           ]
         }
