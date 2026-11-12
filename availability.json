@@ -1,7 +1,13 @@
 {
   "schema": 12,
   "since": "2026-11-10T16:39:05Z",
-  "failing": {},
+  "failing": {
+    "email": {
+      "service": "email",
+      "since": "2026-11-12T10:20:26Z",
+      "reason": "smtp auth: 421 4.4.2 An internal server error has occurred, please try again later."
+    }
+  },
   "periods": [
     {
       "service": "patchwork",
