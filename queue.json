@@ -1,4 +1,36 @@
 {
   "schema": 13,
-  "series": []
+  "series": [
+    {
+      "id": 533618,
+      "name": "Refactoring netdev_dpdk.",
+      "version": 1,
+      "date": "2026-11-13T17:36:08+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=533618",
+      "submitter": {
+        "name": "David Marchand",
+        "email": "david.marchand@redhat.com"
+      },
+      "total": 12,
+      "cover_id": 2344405,
+      "status": "new",
+      "discovered": "2026-11-13T17:37:52Z",
+      "checked": "2026-11-13T17:37:52Z",
+      "patches": [],
+      "decisions": [
+        {
+          "time": "2026-11-13T17:37:52Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43474619057/attempts/1"
+        },
+        {
+          "time": "2026-11-13T17:37:57Z",
+          "action": "incomplete",
+          "detail": "Waiting for all 12 patches.",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43474619057/attempts/1"
+        }
+      ]
+    }
+  ]
 }
