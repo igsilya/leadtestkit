@@ -74,8 +74,8 @@
               "id": 43390837449,
               "attempt": 1,
               "url": "https://github.com/openvswitch-ci/ovs-test/actions/runs/43390837449",
-              "status": "queued",
-              "updated": "2026-11-13T08:11:11Z",
+              "status": "in_progress",
+              "updated": "2026-11-13T08:17:26Z",
               "pending": {
                 "check": "logged",
                 "email": "sent",
@@ -89,14 +89,20 @@
               "id": 43390837423,
               "attempt": 1,
               "url": "https://github.com/openvswitch-ci/ovs-test/actions/runs/43390837423",
-              "status": "in_progress",
-              "updated": "2026-11-13T08:11:11Z",
+              "status": "completed",
+              "conclusion": "success",
+              "result": "success",
+              "updated": "2026-11-13T08:17:26Z",
+              "completed": "2026-11-13T08:17:26Z",
               "pending": {
                 "check": "logged",
                 "email": "sent",
                 "message_id": "<leadtest.533496.2343942.github-robot-freebsd-build-and-test.pending.1794557277.1@af-unspec.org>"
               },
-              "final": {}
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533496.2343942.github-robot-freebsd-build-and-test.final.1794557277.1@af-unspec.org>"
+              }
             }
           ],
           "decisions": [
@@ -181,6 +187,27 @@
               "time": "2026-11-13T08:11:17Z",
               "action": "report-sent",
               "detail": "Sent pending email for github-robot: FreeBSD Build and Test (pending). Message-ID: <leadtest.533496.2343942.github-robot-freebsd-build-and-test.pending.1794557277.1@af-unspec.org>.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43390746180/attempts/1",
+              "workflow_url": "https://github.com/openvswitch-ci/ovs-test/actions/runs/43390837423/attempts/1"
+            },
+            {
+              "time": "2026-11-13T08:17:26Z",
+              "action": "workflow-updated",
+              "detail": "Build and Test run 43390837449, attempt 1: in_progress.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43390746180/attempts/1",
+              "workflow_url": "https://github.com/openvswitch-ci/ovs-test/actions/runs/43390837449/attempts/1"
+            },
+            {
+              "time": "2026-11-13T08:17:26Z",
+              "action": "workflow-updated",
+              "detail": "FreeBSD Build and Test run 43390837423, attempt 1: completed: success.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43390746180/attempts/1",
+              "workflow_url": "https://github.com/openvswitch-ci/ovs-test/actions/runs/43390837423/attempts/1"
+            },
+            {
+              "time": "2026-11-13T08:17:29Z",
+              "action": "report-sent",
+              "detail": "Sent final email for github-robot: FreeBSD Build and Test (success). Message-ID: <leadtest.533496.2343942.github-robot-freebsd-build-and-test.final.1794557277.1@af-unspec.org>.",
               "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43390746180/attempts/1",
               "workflow_url": "https://github.com/openvswitch-ci/ovs-test/actions/runs/43390837423/attempts/1"
             }
