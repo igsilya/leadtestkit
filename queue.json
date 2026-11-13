@@ -1,4 +1,50 @@
 {
   "schema": 12,
-  "series": []
+  "series": [
+    {
+      "id": 533496,
+      "name": "[ovs-dev,v5] ofproto/bond: Add 'multicast' to all-members-active.",
+      "version": 5,
+      "date": "2026-11-13T08:04:52+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=533496",
+      "submitter": {
+        "name": "Sola Zhang",
+        "email": "Sola.Zhang@citrix.com"
+      },
+      "total": 1,
+      "status": "queued",
+      "discovered": "2026-11-13T08:05:08Z",
+      "patches": [
+        {
+          "id": 2343942,
+          "number": 1,
+          "name": "[ovs-dev,v5] ofproto/bond: Add 'multicast' to all-members-active.",
+          "msgid": "<20261113080452.217951-1-Sola.Zhang@citrix.com>",
+          "status": "pending",
+          "decisions": [
+            {
+              "time": "2026-11-13T08:05:13Z",
+              "action": "discovered",
+              "detail": "Found in series 533496.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43388866627/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-13T08:05:08Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43388866627/attempts/1"
+        },
+        {
+          "time": "2026-11-13T08:05:13Z",
+          "action": "queued",
+          "detail": "Eligible for testing; 1 patches.",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43388866627/attempts/1"
+        }
+      ]
+    }
+  ]
 }
