@@ -2395,7 +2395,7 @@
             "name": "David Marchand",
             "email": "david.marchand@redhat.com"
           },
-          "status": "pushed",
+          "status": "done",
           "sha": "a24f172fc78d7ad5585af59ebf8dceefe4e3f088",
           "pushed": "2026-11-13T20:20:17Z",
           "runs": [
@@ -2627,6 +2627,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533618.2344418.github-robot-build-and-test.final.1794593284.1@ovn.org>.",
               "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43507815869/attempts/1",
               "workflow_url": "https://github.com/openvswitch-ci/ovs-test/actions/runs/43500625859/attempts/1"
+            },
+            {
+              "time": "2026-11-13T21:20:40Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43507815869/attempts/1"
             }
           ]
         },
