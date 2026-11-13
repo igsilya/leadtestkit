@@ -6465,6 +6465,18 @@
               "action": "done",
               "detail": "Testing and reporting are complete.",
               "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43392707854/attempts/1"
+            },
+            {
+              "time": "2026-11-13T09:08:26Z",
+              "action": "check-logged",
+              "detail": "Would post success check github-robot-_Build_and_Test from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060142.html",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43398678747/attempts/1"
+            },
+            {
+              "time": "2026-11-13T09:08:32Z",
+              "action": "check-logged",
+              "detail": "Would post success check github-robot-_FreeBSD_Build_and_Test from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060143.html",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43398678747/attempts/1"
             }
           ]
         }
