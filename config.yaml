@@ -29,6 +29,8 @@ report:
     cc:
       address: ovs-dev@openvswitch.org
       workflows: [apply-robot, Checkpatch]
+    # Make submitters answer on ovs-dev.
+    reply_to: ovs-dev@openvswitch.org
 
 archive:
   reports_url: https://mail.openvswitch.org/pipermail/ovs-build/
