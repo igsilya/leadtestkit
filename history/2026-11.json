@@ -6507,6 +6507,144 @@
           "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43392707854/attempts/1"
         }
       ]
+    },
+    {
+      "id": 533533,
+      "name": "net: avoid truncated transport header offsets",
+      "version": 1,
+      "date": "2026-11-13T12:46:20+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=533533",
+      "submitter": {
+        "name": "Eric Dumazet",
+        "email": "edumazet@kernel.org"
+      },
+      "total": 5,
+      "cover_id": 2344120,
+      "status": "skipped",
+      "reason": "kernel patch",
+      "discovered": "2026-11-13T12:48:59Z",
+      "finished": "2026-11-13T12:48:59Z",
+      "patches": [
+        {
+          "id": 2344121,
+          "number": 1,
+          "name": "[ovs-dev,net,1/5] ipv6: gro: limit the number of extension headers",
+          "msgid": "<20261113124625.4010206-2-edumazet@kernel.org>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "discovered",
+              "detail": "Found in series 533533.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            },
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "skipped",
+              "detail": "Series skipped: kernel patch",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2344122,
+          "number": 2,
+          "name": "[ovs-dev,net,2/5] ipv6: mcast: use skb_set_transport_header_careful() in ipv6_mc_check_exthdrs()",
+          "msgid": "<20261113124625.4010206-3-edumazet@kernel.org>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "discovered",
+              "detail": "Found in series 533533.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            },
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "skipped",
+              "detail": "Series skipped: kernel patch",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2344123,
+          "number": 3,
+          "name": "[ovs-dev,net,3/5] net: openvswitch: use skb_set_transport_header_careful() in parse_ipv6hdr()",
+          "msgid": "<20261113124625.4010206-4-edumazet@kernel.org>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "discovered",
+              "detail": "Found in series 533533.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            },
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "skipped",
+              "detail": "Series skipped: kernel patch",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2344124,
+          "number": 4,
+          "name": "[ovs-dev,net,4/5] sctp: use skb_set_transport_header_careful() in sctp_v6_err()",
+          "msgid": "<20261113124625.4010206-5-edumazet@kernel.org>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "discovered",
+              "detail": "Found in series 533533.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            },
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "skipped",
+              "detail": "Series skipped: kernel patch",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            }
+          ]
+        },
+        {
+          "id": 2344125,
+          "number": 5,
+          "name": "[ovs-dev,net,5/5] udp: use skb_set_transport_header_careful() in __udp6_lib_err_encap()",
+          "msgid": "<20261113124625.4010206-6-edumazet@kernel.org>",
+          "status": "skipped",
+          "decisions": [
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "discovered",
+              "detail": "Found in series 533533.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            },
+            {
+              "time": "2026-11-13T12:49:05Z",
+              "action": "skipped",
+              "detail": "Series skipped: kernel patch",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-13T12:48:59Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+        },
+        {
+          "time": "2026-11-13T12:49:05Z",
+          "action": "skipped",
+          "detail": "kernel patch",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43426344775/attempts/1"
+        }
+      ]
     }
   ]
 }
