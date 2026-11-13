@@ -12,21 +12,81 @@
         "email": "Sola.Zhang@citrix.com"
       },
       "total": 1,
-      "status": "queued",
+      "status": "testing",
+      "base": {
+        "git_url": "https://github.com/openvswitch/ovs.git",
+        "branch": "main",
+        "sha": "e77c3bac93f5f62234e5e586b6b02488a43e4557",
+        "why": "default"
+      },
+      "branch": "series_533496",
       "discovered": "2026-11-13T08:05:08Z",
+      "started": "2026-11-13T08:07:57Z",
       "patches": [
         {
           "id": 2343942,
           "number": 1,
           "name": "[ovs-dev,v5] ofproto/bond: Add 'multicast' to all-members-active.",
           "msgid": "<20261113080452.217951-1-Sola.Zhang@citrix.com>",
-          "status": "pending",
+          "status": "pushed",
+          "sha": "f530883dbb551ccb2d532aad31c3c9076a1d09c0",
+          "pushed": "2026-11-13T08:08:01Z",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (e77c3bac93f5).",
+              "updated": "2026-11-13T08:08:01Z",
+              "completed": "2026-11-13T08:08:01Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533496.2343942.apply-robot.final.1794557277.1@af-unspec.org>"
+              }
+            },
+            {
+              "kind": "dispatch",
+              "workflow": "leadtest-checkpatch.yml",
+              "file": "leadtest-checkpatch.yml",
+              "correlation_id": "533496-2343942-leadtest-checkpatch-1",
+              "status": "requested",
+              "updated": "2026-11-13T08:08:04Z",
+              "pending": {},
+              "final": {}
+            }
+          ],
           "decisions": [
             {
               "time": "2026-11-13T08:05:13Z",
               "action": "discovered",
               "detail": "Found in series 533496.",
               "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43388866627/attempts/1"
+            },
+            {
+              "time": "2026-11-13T08:08:01Z",
+              "action": "applied",
+              "detail": "Commit f530883dbb551ccb2d532aad31c3c9076a1d09c0 on base main (e77c3bac93f5f62234e5e586b6b02488a43e4557).",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43390746180/attempts/1"
+            },
+            {
+              "time": "2026-11-13T08:08:02Z",
+              "action": "pushed",
+              "detail": "Updated branch series_533496 to f530883dbb551ccb2d532aad31c3c9076a1d09c0.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43390746180/attempts/1"
+            },
+            {
+              "time": "2026-11-13T08:08:04Z",
+              "action": "dispatched",
+              "detail": "leadtest-checkpatch.yml from main for commit f530883dbb551ccb2d532aad31c3c9076a1d09c0 (request 533496-2343942-leadtest-checkpatch-1).",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43390746180/attempts/1"
+            },
+            {
+              "time": "2026-11-13T08:08:05Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533496.2343942.apply-robot.final.1794557277.1@af-unspec.org>.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43390746180/attempts/1"
             }
           ]
         }
@@ -43,6 +103,12 @@
           "action": "queued",
           "detail": "Eligible for testing; 1 patches.",
           "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43388866627/attempts/1"
+        },
+        {
+          "time": "2026-11-13T08:08:00Z",
+          "action": "base-selected",
+          "detail": "main at e77c3bac93f5f62234e5e586b6b02488a43e4557: default.",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43390746180/attempts/1"
         }
       ]
     }
