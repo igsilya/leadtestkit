@@ -1,10 +1,9 @@
 # LeadTestKit configuration for Open vSwitch.
 #
-# Copy this file to config.yaml on the `state` branch of your
-# leadtestkit fork.  Secrets are not configured here; see SETUP.rst.
+# Secrets are not configured here; see SETUP.rst.
 # Every option is explained in reference.yaml.
 
-enabled: true
+enabled: false
 name: Open vSwitch
 
 patchwork:
@@ -21,11 +20,11 @@ test_repo:
 
 report:
   style: ovs
-  to: i.maximets@af-unspec.org
-  from: "LeadTestKit Robot <robot@af-unspec.org>"
+  to: ovs-build@openvswitch.org
+  from: "0-day Robot <robot@ovn.org>"
   label: github-robot
   apply_label: apply-robot
-  cc_submitter: false
+  cc_submitter: true
 
 archive:
   reports_url: https://mail.openvswitch.org/pipermail/ovs-build/
@@ -37,18 +36,15 @@ smtp:
   port: 465
   security: tls
 
-# Start in test mode: checks are only logged, emails are marked so that
-# other bots ignore them and only go to allowed_recipients.
 mode:
   push: live
-  checks: log
-  email: test
-  allowed_recipients:
-    - i.maximets@af-unspec.org
+  checks: post
+  email: live
 
 alerts:
   to:
-    - i.maximets@af-unspec.org
+    - ovs-dev@openvswitch.org
+    - i.maximets@ovn.org
 
 rules:
   skip:
