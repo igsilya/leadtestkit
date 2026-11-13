@@ -1564,6 +1564,12 @@
               "action": "done",
               "detail": "Testing and reporting are complete.",
               "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43500946515/attempts/1"
+            },
+            {
+              "time": "2026-11-13T20:45:37Z",
+              "action": "check-posted",
+              "detail": "success check github-robot-_Build_and_Test from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060217.html",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43503259917/attempts/1"
             }
           ]
         },
@@ -2112,6 +2118,12 @@
               "time": "2026-11-13T20:45:21Z",
               "action": "done",
               "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43503259917/attempts/1"
+            },
+            {
+              "time": "2026-11-13T20:45:48Z",
+              "action": "check-posted",
+              "detail": "success check github-robot-_Build_and_Test from https://mail.openvswitch.org/pipermail/ovs-build/2026-November/060218.html",
               "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43503259917/attempts/1"
             }
           ]
