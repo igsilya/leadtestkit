@@ -3,7 +3,7 @@
 # Secrets are not configured here; see SETUP.rst.
 # Every option is explained in reference.yaml.
 
-enabled: false
+enabled: true
 name: Open vSwitch
 
 patchwork:
@@ -44,6 +44,7 @@ mode:
 alerts:
   to:
     - ovs-dev@openvswitch.org
+    - aconole@ovn.org
     - i.maximets@ovn.org
 
 rules:
