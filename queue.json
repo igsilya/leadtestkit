@@ -1,4 +1,125 @@
 {
   "schema": 13,
-  "series": []
+  "series": [
+    {
+      "id": 533761,
+      "name": "[ovs-dev] bfd: Check tunnel key before UDP destination port.",
+      "version": 1,
+      "date": "2026-11-14T15:55:09+11:00",
+      "web_url": "http://patchwork.ozlabs.org/project/openvswitch/list/?series=533761",
+      "submitter": {
+        "name": "Alexandra Rukomoinikova",
+        "email": "ARukomoinikova@k2.cloud"
+      },
+      "total": 1,
+      "status": "testing",
+      "base": {
+        "git_url": "https://github.com/openvswitch/ovs.git",
+        "branch": "main",
+        "sha": "e77c3bac93f5f62234e5e586b6b02488a43e4557",
+        "why": "default"
+      },
+      "branch": "series_533761",
+      "discovered": "2026-11-14T15:56:08Z",
+      "started": "2026-11-14T15:56:15Z",
+      "patches": [
+        {
+          "id": 2345028,
+          "number": 1,
+          "name": "[ovs-dev] bfd: Check tunnel key before UDP destination port.",
+          "msgid": "<20261114155511.27787-1-ARukomoinikova@k2.cloud>",
+          "subject": "[ovs-dev] [PATCH] bfd: Check tunnel key before UDP destination port.",
+          "sender": {
+            "name": "Alexandra Rukomoinikova",
+            "email": "ARukomoinikova@k2.cloud"
+          },
+          "status": "pushed",
+          "sha": "d9558c1b7e8b017ad1de10a3cbd7955ebc36ce89",
+          "pushed": "2026-11-14T15:56:25Z",
+          "runs": [
+            {
+              "kind": "apply",
+              "workflow": "apply-robot",
+              "status": "completed",
+              "result": "success",
+              "details": "Applied on top of main (e77c3bac93f5).",
+              "updated": "2026-11-14T15:56:25Z",
+              "completed": "2026-11-14T15:56:25Z",
+              "pending": {},
+              "final": {
+                "email": "sent",
+                "message_id": "<leadtest.533761.2345028.apply-robot.final.1794671775.1@ovn.org>"
+              },
+              "reply": {
+                "email": "skipped"
+              }
+            },
+            {
+              "kind": "dispatch",
+              "workflow": "leadtest-checkpatch.yml",
+              "file": "leadtest-checkpatch.yml",
+              "correlation_id": "533761-2345028-leadtest-checkpatch-1",
+              "status": "requested",
+              "updated": "2026-11-14T15:56:28Z",
+              "pending": {},
+              "final": {},
+              "reply": {}
+            }
+          ],
+          "decisions": [
+            {
+              "time": "2026-11-14T15:56:14Z",
+              "action": "discovered",
+              "detail": "Found in series 533761.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43612499938/attempts/1"
+            },
+            {
+              "time": "2026-11-14T15:56:25Z",
+              "action": "applied",
+              "detail": "Commit d9558c1b7e8b017ad1de10a3cbd7955ebc36ce89 on base main (e77c3bac93f5f62234e5e586b6b02488a43e4557).",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43612499938/attempts/1"
+            },
+            {
+              "time": "2026-11-14T15:56:26Z",
+              "action": "pushed",
+              "detail": "Updated branch series_533761 to d9558c1b7e8b017ad1de10a3cbd7955ebc36ce89.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43612499938/attempts/1"
+            },
+            {
+              "time": "2026-11-14T15:56:28Z",
+              "action": "dispatched",
+              "detail": "leadtest-checkpatch.yml from main for commit d9558c1b7e8b017ad1de10a3cbd7955ebc36ce89 (request 533761-2345028-leadtest-checkpatch-1).",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43612499938/attempts/1"
+            },
+            {
+              "time": "2026-11-14T15:56:28Z",
+              "action": "report-sent",
+              "detail": "Sent final email for apply-robot (success). Message-ID: <leadtest.533761.2345028.apply-robot.final.1794671775.1@ovn.org>.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43612499938/attempts/1"
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "time": "2026-11-14T15:56:08Z",
+          "action": "discovered",
+          "detail": "Found in Patchwork.",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43612499938/attempts/1"
+        },
+        {
+          "time": "2026-11-14T15:56:14Z",
+          "action": "queued",
+          "detail": "Eligible for testing; 1 patches.",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43612499938/attempts/1"
+        },
+        {
+          "time": "2026-11-14T15:56:21Z",
+          "action": "base-selected",
+          "detail": "main at e77c3bac93f5f62234e5e586b6b02488a43e4557: default.",
+          "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43612499938/attempts/1"
+        }
+      ]
+    }
+  ]
 }
