@@ -1,13 +1,7 @@
 {
   "schema": 13,
   "since": "2026-11-10T16:39:05Z",
-  "failing": {
-    "patchwork": {
-      "service": "patchwork",
-      "since": "2026-11-14T06:42:12Z",
-      "reason": "events series-completed page 1: HTTP 502 from https://patchwork.ozlabs.org/api/1.2/events/?category=series-completed&order=-id&per_page=1024&project=openvswitch&page=1 with response \"(html page)\""
-    }
-  },
+  "failing": {},
   "periods": [
     {
       "service": "patchwork",
@@ -547,6 +541,12 @@
       "service": "patchwork",
       "since": "2026-11-14T06:21:42Z",
       "until": "2026-11-14T06:22:47Z",
+      "reason": "events series-completed page 1: HTTP 502 from https://patchwork.ozlabs.org/api/1.2/events/?category=series-completed&order=-id&per_page=1024&project=openvswitch&page=1 with response \"(html page)\""
+    },
+    {
+      "service": "patchwork",
+      "since": "2026-11-14T06:42:12Z",
+      "until": "2026-11-14T06:46:10Z",
       "reason": "events series-completed page 1: HTTP 502 from https://patchwork.ozlabs.org/api/1.2/events/?category=series-completed&order=-id&per_page=1024&project=openvswitch&page=1 with response \"(html page)\""
     }
   ]
