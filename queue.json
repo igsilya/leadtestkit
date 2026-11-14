@@ -33,7 +33,7 @@
             "name": "Alexandra Rukomoinikova",
             "email": "ARukomoinikova@k2.cloud"
           },
-          "status": "pushed",
+          "status": "done",
           "sha": "d9558c1b7e8b017ad1de10a3cbd7955ebc36ce89",
           "pushed": "2026-11-14T15:56:25Z",
           "runs": [
@@ -265,6 +265,12 @@
               "detail": "Sent final email for github-robot: Build and Test (success). Message-ID: <leadtest.533761.2345028.github-robot-build-and-test.final.1794671775.1@ovn.org>.",
               "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43615253445/attempts/1",
               "workflow_url": "https://github.com/openvswitch-ci/ovs-test/actions/runs/43612855024/attempts/1"
+            },
+            {
+              "time": "2026-11-14T16:26:03Z",
+              "action": "done",
+              "detail": "Testing and reporting are complete.",
+              "run_url": "https://github.com/openvswitch-ci/leadtestkit/actions/runs/43615253445/attempts/1"
             }
           ]
         }
